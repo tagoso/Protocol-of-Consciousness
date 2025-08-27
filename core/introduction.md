@@ -1,0 +1,7 @@
+# Introduction
+
+The Protocol of Consciousness (PoC) does not treat consciousness as an inner substance residing inside the individual. Rather, it defines consciousness as an **illusion generated through relations with others**. What PoC formalizes is the minimal sequence of operations by which we see consciousness in others and thereby experience it ourselves.
+
+This perspective reframes the classical problem of [self-consciousness](../implications/self-consciousness-as-structual-paradox.md). By shifting from an inner metaphysical essence to a **relational protocol**, PoC creates a framework that can engage contemporary topics such as [AI](../plugins/ai-plugin.md), [media](../plugins/media-plugin.md), and [religion](../plugins/god-plugin.md). Within this framework, [**plugins**](../plugins/what-are-plugins.md) function as extensions that translate traditional philosophical problems into modern contexts, making them operational and experimentally expandable.
+
+PoC is not intended as a system of rigorous verification or ultimate truth-claims in the manner of traditional philosophical theories. Instead, its aim is to provide **“usable concepts”** that resonate with today’s anxieties and sensibilities. In this sense, PoC works not as a doctrine but as a toolkit. Metaphorically, it may be described as **an SDK operating on the OS of consciousness**: a development kit for organizing thought and enabling new applications of the protocol across different domains.
