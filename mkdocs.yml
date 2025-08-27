@@ -1,4 +1,3 @@
 site_name: Protocol of Consciousness
-docs_dir: "."
 theme:
   name: material
