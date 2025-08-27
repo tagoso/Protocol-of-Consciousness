@@ -17,12 +17,5 @@ jobs:
       - name: Install deps
         run: pip install -r requirements.txt
 
-      - name: (Optional) Prepare CNAME
-        run: |
-          if [ -n "${{ secrets.CUSTOM_DOMAIN }}" ]; then
-            mkdir -p site
-            echo "${{ secrets.CUSTOM_DOMAIN }}" > site/CNAME
-          fi
-
-      - name: Deploy
+      - name: Build and Deploy
         run: mkdocs gh-deploy --force
