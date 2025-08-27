@@ -1,0 +1,6 @@
+site_name: Protocol of Consciousness
+site_url: https://protocolofconsciousness.org
+docs_dir: "."
+
+theme:
+  name: material
