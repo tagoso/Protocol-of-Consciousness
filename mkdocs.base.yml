@@ -8,6 +8,8 @@ theme:
     - navigation.indexes
     - navigation.footer # ← 前後カード
     - navigation.top # サイドバーをトップ揃え
+    - navigation.tabs
+    - navigation.path
 plugins:
   - search
   - git-revision-date-localized:
