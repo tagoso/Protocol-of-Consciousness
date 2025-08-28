@@ -2,4 +2,9 @@ site_name: Protocol of Consciousness
 theme:
   name: material
   features:
-    - navigation.footer
+    - navigation.footer   # ← 前後カード
+plugins:
+  - search
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+      type: date
