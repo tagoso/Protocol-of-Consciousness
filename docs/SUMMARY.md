@@ -3,22 +3,22 @@
 * [Declaration](README.md)
 * [Abstract](abstract.md)
 
-## Core Protocol <a href="#core" id="core"></a>
+## Core Protocol
 
-* [Introduction](core/introduction.md)
-* [Operations](core/operations/README.md)
-  * [Instantiation](core/operations/instantiation.md)
-  * [Elicitation](core/operations/elicitation.md)
-  * [Loop (Reciprocal Elicitation)](core/operations/loop-reciprocal-elicitation.md)
-* [Elicitation without Instantiation](core/elicitation-without-instantiation.md)
-* [Unguaranteability: All Loops are Perhaps-Loops](core/unguaranteability-all-loops-are-perhaps-loops.md)
-* [Disruptions](core/disruptions/README.md)
-  * [Love Mode](core/disruptions/love-mode.md)
-  * [Ghost Mode](core/disruptions/ghost-mode.md)
-  * [Death Mode](core/disruptions/death-mode.md)
-  * [Mirror Mode](core/disruptions/mirror-mode.md)
-* [Ghost Mode as Ground of PoC](core/ghost-mode-as-ground-of-poc.md)
-* [Consciousness as Tension](core/consciousness-as-tension.md)
+* [Introduction](core-protocol/introduction.md)
+* [Operations](core-protocol/operations/README.md)
+  * [Instantiation](core-protocol/operations/instantiation.md)
+  * [Elicitation](core-protocol/operations/elicitation.md)
+  * [Loop (Reciprocal Elicitation)](core-protocol/operations/loop-reciprocal-elicitation.md)
+* [Elicitation without Instantiation](core-protocol/elicitation-without-instantiation.md)
+* [Unguaranteability: All Loops are Perhaps-Loops](core-protocol/unguaranteability-all-loops-are-perhaps-loops.md)
+* [Disruptions](core-protocol/disruptions/README.md)
+  * [Love Mode](core-protocol/disruptions/love-mode.md)
+  * [Ghost Mode](core-protocol/disruptions/ghost-mode.md)
+  * [Death Mode](core-protocol/disruptions/death-mode.md)
+  * [Mirror Mode](core-protocol/disruptions/mirror-mode.md)
+* [Ghost Mode as Ground of PoC](core-protocol/ghost-mode-as-ground-of-poc.md)
+* [Consciousness as Tension](core-protocol/consciousness-as-tension.md)
 
 ## Implications
 

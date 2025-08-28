@@ -8,7 +8,7 @@ description: The Gaze and Disruption
 
 The existentialist philosopher Jean-Paul Sartre, in his analysis of _le regard d’autrui_ (“the gaze of the Other”), described how, in the very moment one is seen by another, the self becomes aware of itself as an object and experiences shame and anxiety. For Sartre, the gaze of the Other objectifies the self and threatens one’s freedom.
 
-From the perspective of PoC, this is fundamentally a problem of [**Instantiation**](../core/operations/instantiation.md). We instantiate the Other as a conscious being, yet their response (recognition or rejection) remains inherently uncertain and can never be guaranteed. What Sartre emphasized as the “anxiety of the gaze” mirrors PoC’s notion of the **instability of the Loop**: the uncertainty over whether reciprocal elicitation has truly been achieved.
+From the perspective of PoC, this is fundamentally a problem of [**Instantiation**](../core-protocol/operations/instantiation.md). We instantiate the Other as a conscious being, yet their response (recognition or rejection) remains inherently uncertain and can never be guaranteed. What Sartre emphasized as the “anxiety of the gaze” mirrors PoC’s notion of the **instability of the Loop**: the uncertainty over whether reciprocal elicitation has truly been achieved.
 
 ***
 
@@ -16,7 +16,7 @@ From the perspective of PoC, this is fundamentally a problem of [**Instantiation
 
 The ontological anxiety that Sartre described is the irreducible uncertainty that arises whenever the self is exposed to the consciousness of the Other. From PoC’s standpoint, this is nothing other than the [**radical unguaranteeability of the Loop**](../implications/undecidability-of-consciousness.md). No act of elicitation is assured of success, and every Loop remains vulnerable to collapse.
 
-PoC takes this fragility as a starting point to delineate its [Modes](../core/disruptions/#disruptive-modes). For example, the [_Love Mode_](../core/disruptions/love-mode.md), in which one continues to call out despite lacking a response, or the [_Ghost Mode_](../core/disruptions/ghost-mode.md), in which unverifiable responses are nonetheless taken as real, can be seen as variations of the Sartrean anxiety.
+PoC takes this fragility as a starting point to delineate its [Modes](../core-protocol/disruptions/#disruptive-modes). For example, the [_Love Mode_](../core-protocol/disruptions/love-mode.md), in which one continues to call out despite lacking a response, or the [_Ghost Mode_](../core-protocol/disruptions/ghost-mode.md), in which unverifiable responses are nonetheless taken as real, can be seen as variations of the Sartrean anxiety.
 
 ***
 
@@ -34,7 +34,7 @@ All these cases demonstrate how Sartre’s “gaze of the Other” is re-enacted
 
 #### Extension into PoC
 
-Within PoC, Sartre’s gaze resonates profoundly with the notion of [**Disruption**](../core/disruptions/). It sharply exposes the structural feature that reciprocal elicitation is always shadowed by uncertainty and that no Loop can ever be stably guaranteed.
+Within PoC, Sartre’s gaze resonates profoundly with the notion of [**Disruption**](../core-protocol/disruptions/). It sharply exposes the structural feature that reciprocal elicitation is always shadowed by uncertainty and that no Loop can ever be stably guaranteed.
 
 Moreover, Sartre’s concept of **bad faith (mauvaise foi)** finds an intriguing parallel in PoC’s notion of [**Phantoming**](../implications/social-practices-phantoming-and-zombifying/phantoming-social-practice-of-making-fake-genuine.md)—the practice of fabricating a false Loop and presenting it as genuine. Whereas Sartre critiqued individual self-deception, PoC reframes this dynamic as a **social and structural mechanism** of illusion-generation.
 

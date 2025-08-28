@@ -26,18 +26,18 @@ These architectures are not spectacles of visual beauty alone but **experimental
 ### 3. PoC Interpretation: Responses Drawn Out by Space
 
 **Forced Instantiation**\
-Spaces normally ignored as mere “background” are, through slopes and distortions, [instantiated](../core/operations/instantiation.md) as something that actively addresses me. Here, architecture becomes an _Agent_ in the PoC sense: “an entity upon which consciousness is instantiated.” In this way, architecture and space can rightly be instantiated through bodily experience. This is not an overextension of the concept, but an application consistent [with PoC’s own definition](broken-reference).
+Spaces normally ignored as mere “background” are, through slopes and distortions, [instantiated](../core-protocol/operations/instantiation.md) as something that actively addresses me. Here, architecture becomes an _Agent_ in the PoC sense: “an entity upon which consciousness is instantiated.” In this way, architecture and space can rightly be instantiated through bodily experience. This is not an overextension of the concept, but an application consistent [with PoC’s own definition](broken-reference).
 
 **Bodily Elicitation**\
-Acts such as bracing the legs, stretching out the arms, or searching for orientation function as [Elicitation](../core/operations/elicitation.md) directed toward space. The distinctive point is not voluntary response, but response compelled by spatial design.
+Acts such as bracing the legs, stretching out the arms, or searching for orientation function as [Elicitation](../core-protocol/operations/elicitation.md) directed toward space. The distinctive point is not voluntary response, but response compelled by spatial design.
 
 **Reciprocal Elicitation from Space**\
 The physical feedback from a tilted floor or uneven surface induces an experience of “being responded to.” Arakawa and Gins’s architecture thereby makes explicit one of PoC’s core insights: even “space itself” can be instantiated as an Agent.
 
-In these moments, Elicitation and [Reciprocal Elicitation](../core/operations/loop-reciprocal-elicitation.md) emerge between body and environment, and the illusion of response is not guaranteed but triggered by spatial conditions designed to produce it.
+In these moments, Elicitation and [Reciprocal Elicitation](../core-protocol/operations/loop-reciprocal-elicitation.md) emerge between body and environment, and the illusion of response is not guaranteed but triggered by spatial conditions designed to produce it.
 
 **Formation of a Loop**\
-Through these interactions, Instantiation, Elicitation, and Reciprocal Elicitation circulate to form a Loop between body and space. Whether one considers this a _Genuine_ dialogue with space or a _Fake Loop_ projected by the body, it is nonetheless subjectively experienced as real—demonstrating the core PoC principle that [all Loops are ultimately sustained by belief](../core/unguaranteability-all-loops-are-perhaps-loops.md), not objective guarantee. This experience also resonates with existing Modes: the [_Ghost Mode_](../core/disruptions/ghost-mode.md), where unverifiable responses are nonetheless lived as present, and the [_Mirror Mode_](../core/disruptions/mirror-mode.md), where the boundary between self and environment becomes blurred.
+Through these interactions, Instantiation, Elicitation, and Reciprocal Elicitation circulate to form a Loop between body and space. Whether one considers this a _Genuine_ dialogue with space or a _Fake Loop_ projected by the body, it is nonetheless subjectively experienced as real—demonstrating the core PoC principle that [all Loops are ultimately sustained by belief](../core-protocol/unguaranteability-all-loops-are-perhaps-loops.md), not objective guarantee. This experience also resonates with existing Modes: the [_Ghost Mode_](../core-protocol/disruptions/ghost-mode.md), where unverifiable responses are nonetheless lived as present, and the [_Mirror Mode_](../core-protocol/disruptions/mirror-mode.md), where the boundary between self and environment becomes blurred.
 
 ***
 

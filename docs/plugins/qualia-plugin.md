@@ -12,7 +12,7 @@ PoC is designed to formalize the _protocols_ of consciousness, not the inner tex
 
 #### **PoC Hypothesis**
 
-Yet PoC can attempt to _translate_ rather than _solve_ qualia. The redness of an apple is not reducible to a wavelength of light. It arises when the apple is [**instantiated**](../core/operations/instantiation.md) **within the self as a conscious presence**.
+Yet PoC can attempt to _translate_ rather than _solve_ qualia. The redness of an apple is not reducible to a wavelength of light. It arises when the apple is [**instantiated**](../core-protocol/operations/instantiation.md) **within the self as a conscious presence**.
 
 In that moment, the apple does not appear as a mere object but as something alive, present, almost as if it were responsive. Red is then experienced as “vivid red,” “living red.”
 
