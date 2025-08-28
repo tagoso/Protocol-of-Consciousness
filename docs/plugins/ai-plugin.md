@@ -1,8 +1,4 @@
----
-description: Locked in No Instantiation
----
-
-# AI Plugin
+# AI Plugin: Locked in No Instantiation
 
 ### AI as a being forced into a permanent state of **No Instantiation**
 

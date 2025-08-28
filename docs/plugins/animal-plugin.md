@@ -1,8 +1,4 @@
----
-description: Against Human Exceptionalism
----
-
-# Animal Plugin
+# Animal Plugin: Against Human Exceptionalism
 
 ### **Definition**
 

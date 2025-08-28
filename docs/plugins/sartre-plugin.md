@@ -1,8 +1,4 @@
----
-description: The Gaze and Disruption
----
-
-# Sartre Plugin
+# Sartre Plugin: The Gaze and Disruption
 
 ### The Protocolization of the Gaze
 

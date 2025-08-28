@@ -1,8 +1,4 @@
----
-description: Paired Practices
----
-
-# Social Practices: Phantoming and Zombifying
+# Phantoming and Zombifying
 
 Within the Protocol of Consciousness (PoC), the line between [Genuine and Fake can never be objectively secured](../../protocol/unguaranteability-all-loops-are-perhaps-loops.md). This undecidability is not a flaw but a structural condition of consciousness itself. Out of this condition emerge social practices that manage — and exploit — the fragility of recognition.
 

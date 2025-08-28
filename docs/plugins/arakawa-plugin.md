@@ -1,8 +1,4 @@
----
-description: 'Embodiment and Architecture Against Death: Spatial Disruption and PoC'
----
-
-# Arakawa Plugin
+# Arakawa Plugin: Embodiment and Architecture
 
 ### Arakawa and Madeline Gins: Their Thought
 

@@ -1,8 +1,4 @@
----
-description: Instantiating the Absent
----
-
-# God Plugin
+# God Plugin: Instantiating the Absent
 
 ### **Definition**
 

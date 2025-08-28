@@ -1,7 +1,3 @@
----
-description: or Making the Other Absent
----
-
 # Zombifying: Social Practice of Making Genuine Fake
 
 ### Definition

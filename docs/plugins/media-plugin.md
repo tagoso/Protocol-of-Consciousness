@@ -1,8 +1,4 @@
----
-description: Simulated Responsiveness
----
-
-# Media Plugin
+# Media Plugin: Simulated Responsiveness
 
 ### **Definition**
 

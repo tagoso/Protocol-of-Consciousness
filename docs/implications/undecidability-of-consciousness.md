@@ -1,7 +1,3 @@
----
-description: 'Logical Consequences: The External Limit of PoC'
----
-
 # Undecidability of Consciousness
 
 The Protocol of Consciousness (PoC) begins with its [minimal operations](../protocol/operations/): Instantiation, Elicitation, Reciprocal Elicitation, and Loop.

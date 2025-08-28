@@ -1,8 +1,4 @@
----
-description: Redness as Instantiation
----
-
-# Qualia Plugin
+# Qualia Plugin: Redness as Instantiation
 
 ### **Definition**
 

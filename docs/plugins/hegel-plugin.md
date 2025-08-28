@@ -1,8 +1,4 @@
----
-description: Recognition and the Loop
----
-
-# Hegel Plugin
+# Hegel Plugin: Recognition and the Loop
 
 ### **The Self Through the Other**
 

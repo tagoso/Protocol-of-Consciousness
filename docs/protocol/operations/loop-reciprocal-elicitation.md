@@ -1,7 +1,3 @@
----
-description: The foundation of relations
----
-
 # Loop (Reciprocal Elicitation)
 
 In PoC, a **Loop** refers to the state in which two subjects engage in [**Elicitation**](elicitation.md) toward one another, such that each appears to see their own illusion of consciousness instantiated within the other.

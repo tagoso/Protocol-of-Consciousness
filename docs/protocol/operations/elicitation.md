@@ -1,7 +1,3 @@
----
-description: The act of requesting Instantiation
----
-
 # Elicitation
 
 Within PoC, **Elicitation** is defined as the act of bidding for one’s own illusion of consciousness to be instantiated within the other.

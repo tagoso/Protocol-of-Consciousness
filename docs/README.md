@@ -1,7 +1,3 @@
----
-description: Preface to the Protocol of Consciousness
----
-
 # Declaration
 
 This declaration is not the Protocol itself. It is a statement of ethos — the ground from which PoC is written.

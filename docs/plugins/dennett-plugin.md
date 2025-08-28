@@ -1,8 +1,4 @@
----
-description: PoC and the Intentional Stance
----
-
-# Dennett Plugin
+# Dennett Plugin: The Intentional Stance
 
 ### Core Difference
 

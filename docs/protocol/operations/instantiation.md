@@ -1,7 +1,3 @@
----
-description: The Rise of the Other’s Consciousness
----
-
 # Instantiation
 
 In PoC, **Instantiation** refers to the moment when a subject (an agent) posits consciousness in another. To clarify, Instantiation is often emphasized its external concept by adding "of me", such as Instantiation _of me._  This positing is not the recognition of some external, real consciousness “out there,” but rather the act of generating an illusion of the other’s consciousness within the subject’s own interior.

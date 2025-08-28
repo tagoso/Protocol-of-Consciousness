@@ -1,7 +1,3 @@
----
-description: 'Structural Consequences: The Internal Consequence of PoC'
----
-
 # Self-Consciousness as Structual Paradox
 
 ### The Basic Elements of PoC (Recap)

@@ -1,8 +1,4 @@
----
-description: Loops as Survival Mechanisms
----
-
-# Evolutionary Utilitarianism Plugin
+# Evolutionary Utilitarianism Plugin: Loops as Survival Mechanisms
 
 ### **Points of Contact**
 
