@@ -54,7 +54,7 @@ Mirror Mode exemplifies a paradoxical response to disruption: it neither denies 
 
 #### **Protocol Violation**
 
-_(See_ [_Zombifying_](../../implications/social-practices-phantoming-and-zombifying/zombifying-social-practice-of-making-genuine-fake.md)_)_
+_(See_ [_Zombifying_](../../implications/phantoming-and-zombifying/zombifying-social-practice-of-making-genuine-fake.md)_)_
 
 An agent refuses to recognize the other as conscious, while still demanding to be treated as conscious themselves. This generates asymmetry, unfairness, and potential violence.
 

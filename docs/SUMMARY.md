@@ -24,9 +24,9 @@
 
 * [Undecidability of Consciousness](implications/undecidability-of-consciousness.md)
 * [Self-Consciousness as Structual Paradox](implications/self-consciousness-as-structual-paradox.md)
-* [Phantoming and Zombifying](implications/social-practices-phantoming-and-zombifying/README.md)
-  * [Phantoming: Social Practice of Making Fake Genuine](implications/social-practices-phantoming-and-zombifying/phantoming-social-practice-of-making-fake-genuine.md)
-  * [Zombifying: Social Practice of Making Genuine Fake](implications/social-practices-phantoming-and-zombifying/zombifying-social-practice-of-making-genuine-fake.md)
+* [Phantoming and Zombifying](implications/phantoming-and-zombifying/README.md)
+  * [Phantoming: Social Practice of Making Fake Genuine](implications/phantoming-and-zombifying/phantoming-social-practice-of-making-fake-genuine.md)
+  * [Zombifying: Social Practice of Making Genuine Fake](implications/phantoming-and-zombifying/zombifying-social-practice-of-making-genuine-fake.md)
 * [Limits of PoC](implications/limits-of-poc.md)
 
 ## Plugins

@@ -1,4 +1,4 @@
-# P-Zombie Plugin
+# P-Zombie Plugin: Fragility of Loop Formation
 
 ### Definition
 
@@ -13,7 +13,7 @@ From the standpoint of PoC, the notion of the p-zombie highlights the structural
 
 * [**Ghost Mode**](../protocol/disruptions/ghost-mode.md): Absence of Instantiation, lived “as if” it were present.
 * [**Death Mode**](../protocol/disruptions/death-mode.md): Response confirmed impossible.
-* [**Zombifying**](../implications/social-practices-phantoming-and-zombifying/zombifying-social-practice-of-making-genuine-fake.md): [Reciprocal Elicitation](../protocol/operations/loop-reciprocal-elicitation.md) observable, yet its authenticity doubtful.
+* [**Zombifying**](../implications/phantoming-and-zombifying/zombifying-social-practice-of-making-genuine-fake.md): [Reciprocal Elicitation](../protocol/operations/loop-reciprocal-elicitation.md) observable, yet its authenticity doubtful.
 
 Seen through PoC, the p-zombie problem is not a speculative curiosity but simply another way of stating the **fragility of Loop formation**. To “suspect the other might be a zombie” is a lived stance already captured by PoC’s protocol.
 

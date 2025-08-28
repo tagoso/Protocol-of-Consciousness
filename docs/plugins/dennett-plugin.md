@@ -17,7 +17,7 @@ PoC and Daniel Dennett’s _Intentional Stance_ resonate at first glance. Both f
 ### Ethical Implications
 
 * **Dennett**: The intentional stance is discussed mainly as a cognitive tool.
-* **PoC**: To withhold Instantiation is to refuse recognition of the other as a conscious subject. [Such refusal](../implications/social-practices-phantoming-and-zombifying/zombifying-social-practice-of-making-genuine-fake.md) carries ethical consequences: neglect, exclusion, violence, even killing. The stability of the illusion of consciousness thus bears profound moral weight.
+* **PoC**: To withhold Instantiation is to refuse recognition of the other as a conscious subject. [Such refusal](../implications/phantoming-and-zombifying/zombifying-social-practice-of-making-genuine-fake.md) carries ethical consequences: neglect, exclusion, violence, even killing. The stability of the illusion of consciousness thus bears profound moral weight.
 
 ### Meta-stance
 

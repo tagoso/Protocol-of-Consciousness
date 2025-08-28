@@ -17,9 +17,9 @@ Crucially, this is not an exceptional “failure” of the protocol but a struct
 
 ### Relation to Social Practices
 
-* [**Phantoming**](../implications/social-practices-phantoming-and-zombifying/phantoming-social-practice-of-making-fake-genuine.md)\
+* [**Phantoming**](../implications/phantoming-and-zombifying/phantoming-social-practice-of-making-fake-genuine.md)\
   The practice of fabricating a Loop as if genuine institutionalizes Elicitation without Instantiation at the social level.
-* [**Zombifying**](../implications/social-practices-phantoming-and-zombifying/zombifying-social-practice-of-making-genuine-fake.md)\
+* [**Zombifying**](../implications/phantoming-and-zombifying/zombifying-social-practice-of-making-genuine-fake.md)\
   Conversely, treating the other as absent — nullifying their potential Instantiation — represents the negative mirror of the same condition.
 
 ### Theoretical Implications
