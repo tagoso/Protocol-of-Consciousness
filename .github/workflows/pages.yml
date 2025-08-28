@@ -20,62 +20,95 @@ jobs:
           python-version: '3.x'
       - run: pip install -r requirements.txt
 
-      # SUMMARY.md → generate nav → mkdocs.gen.yml 
+      # SUMMARY.md → nav 生成 → mkdocs.gen.yml を作成（プレビュー出力あり）
       - name: Generate mkdocs.gen.yml from GitBook SUMMARY.md
         run: |
+          set -e
           python - << 'PY'
-          import os,re,yaml
+          import os, re, sys, yaml, json
 
           BASE_CFG = 'mkdocs.base.yml'
           SUMMARY = os.path.join('docs','SUMMARY.md')
-          assert os.path.exists(BASE_CFG), "mkdocs.base.yml not found"
-          assert os.path.exists(SUMMARY), "docs/SUMMARY.md not found"
 
-          # 1) load base config
+          if not os.path.exists(BASE_CFG):
+              sys.exit("ERROR: mkdocs.base.yml not found at repo root")
+          if not os.path.exists(SUMMARY):
+              sys.exit("ERROR: docs/SUMMARY.md not found (is GitBook syncing to docs/?)")
+
           with open(BASE_CFG,'r',encoding='utf-8') as f:
             cfg = yaml.safe_load(f) or {}
 
-          # 2) parse SUMMARY.md (GitBook形式: インデント付きの - [Title](path.md))
-          nav_stack = [[]]   # list stack; root is level 0
-          indent_unit = None
-          link_re = re.compile(r'^\s*-\s*\[(?P<title>[^\]]+)\]\((?P<href>[^)]+)\)')
+          # GitBook summary lines: "- [Title](path.md)" with indentation for nesting
+          link = re.compile(r'^(?P<indent>\s*)-\s*\[(?P<title>[^\]]+)\]\((?P<href>[^)]+)\)')
+          stack = [[]]          # stack of lists; stack[0] == root nav list
+          indent_unit = None    # space count per level (detected)
 
-          with open(SUMMARY,'r',encoding='utf-8') as f:
-            for raw in f:
-              m = link_re.match(raw)
-              if not m:
-                continue
-              spaces = len(raw) - len(raw.lstrip(' '))
-              if indent_unit is None and spaces>0:
-                indent_unit = spaces
-              level = (spaces // (indent_unit or 2))  # fallback=2
-              # ensure stack height
-              while len(nav_stack)-1 < level:
-                nav_stack.append([])
-              while len(nav_stack)-1 > level:
-                nav_stack.pop()
+          lines = open(SUMMARY, 'r', encoding='utf-8').read().splitlines()
+          parsed_any = False
 
-              title = m.group('title').strip()
-              href  = m.group('href').strip()
-              # GitBook may contain ./ or # anchors, so formatting
-              href = href.split('#',1)[0]  # Anchor removal
-              if href == '' or href.endswith('/'):
-                # Resolve to the folder's index (when GitBook creates folder chapters)
-                href = href + 'README.md'
-              # Remove the leading slash. Relative paths start from `docs/`.
-              href = href.lstrip('/')
-              path = os.path.join('docs', href)
+          for line in lines:
+            m = link.match(line)
+            if not m:
+              continue
+            parsed_any = True
+            spaces = len(m.group('indent'))
+            if indent_unit is None and spaces > 0:
+              indent_unit = spaces
+            level = spaces // (indent_unit or 2)  # default 2 spaces if not detected
 
-              # Determining whether it is a hierarchical node or a single page
-              item = { title: path }
-              nav_stack[-1].append(item)
+            # normalize href
+            href = m.group('href').split('#',1)[0].strip().lstrip('/')
+            if href == '' or href.endswith('/'):
+              href = href + 'README.md'
+            path = os.path.join('docs', href)
 
-          cfg['nav'] = nav_stack[0]
+            title = m.group('title').strip()
+
+            # ensure stack height == level+1
+            while len(stack)-1 < level:
+              stack.append([])
+            while len(stack)-1 > level:
+              children = stack.pop()
+              if stack[-1]:
+                last = stack[-1][-1]
+                key = next(iter(last))
+                val = last[key]
+                if isinstance(val, list):
+                  val.extend(children)
+                else:
+                  last[key] = children
+
+            # append this node as leaf for now
+            stack[-1].append({ title: path })
+
+          # collapse remaining children
+          while len(stack) > 1:
+            children = stack.pop()
+            if stack[-1]:
+              last = stack[-1][-1]
+              key = next(iter(last))
+              val = last[key]
+              if isinstance(val, list):
+                val.extend(children)
+              else:
+                last[key] = children
+
+          if not parsed_any:
+            sys.exit("ERROR: No entries parsed from docs/SUMMARY.md. Check the syntax '- [Title](path.md)'.")
+
+          cfg['nav'] = stack[0]
+
           with open('mkdocs.gen.yml','w',encoding='utf-8') as f:
             yaml.dump(cfg, f, allow_unicode=True, sort_keys=False)
+
+          print("=== mkdocs.gen.yml (preview) ===")
+          print(open('mkdocs.gen.yml','r',encoding='utf-8').read())
           PY
 
+      # 生成した mkdocs.gen.yml を使ってビルド
       - run: mkdocs build -f mkdocs.gen.yml --site-dir _site
+
+      # アーティファクトとしてアップロード
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
