@@ -1,6 +1,6 @@
 # Consciousness as Tension
 
-#### 1. Position within the Core Structure of PoC
+### Position within the Core Structure of PoC
 
 The basic operations of PoC are composed of **Instantiation → Elicitation → Reciprocal Elicitation → Loop**. Yet all of these are governed by [**Unguaranteeability**](unguaranteability-all-loops-are-perhaps-loops.md): one can never confirm whether the other has truly instantiated me, or whether my Elicitation has been received.
 
@@ -8,9 +8,7 @@ Nevertheless, people continue to believe that a Loop has been established, and i
 
 **Definition**: _Consciousness as Tension = the experiential state in which the Loop is sustained by belief, even while the success of Instantiation or Elicitation remains uncertain._
 
-***
-
-#### 2. Relation to Modes
+### Relation to Modes
 
 [Modes](disruptions/#disruptive-modes) can be organized as distinct responses to this Tension:
 
@@ -21,17 +19,13 @@ Nevertheless, people continue to believe that a Loop has been established, and i
 
 Thus, all Modes are nothing but modalities of responding to **Consciousness as Tension**.
 
-***
-
-#### 3. Relation to Other Theoretical Concepts
+### Relation to Other Theoretical Concepts
 
 * [**Undecidability**](../implications/undecidability-of-consciousness.md): the logical constraint that whether Instantiation or Reciprocal Elicitation has truly occurred can never be decided in principle.
 * [**Structural Paradox**](../implications/self-consciousness-as-structual-paradox.md): the structure by which the “me-in-the-other,” which exists only inside myself, is nonetheless believed to exist outside.
 * **Tension**: the experiential modality in which such constraints and paradoxes are lived — the felt condition of sustaining relations amid uncertainty.
 
-***
-
-#### 4. Summary
+### Summary
 
 From the standpoint of PoC, [**every Loop is a Perhaps-Loop**](unguaranteability-all-loops-are-perhaps-loops.md).
 

@@ -23,6 +23,6 @@ Death Mode marks the point at which the framework of **Elicitation and Loop** wi
 
 * In **Ghost Mode**, response is absent yet experienced _as if_ it were present.
 * In [**Zombie thought experiments**](../../plugins/p-zombie-plugin.md), response appears, but whether Instantiation has truly occurred remains undecidable.
-* In **Death Mode**, however, response is confirmed impossible.
+* In [**Death Mode**](death-mode.md), however, response is confirmed impossible.
 
 Elicitation becomes isolated, and the possibility of the Loop vanishes. This **confirmation of rupture** is the essence of the experience of death.

@@ -1,6 +1,6 @@
 # Phantoming: Social Practice of Making Fake Genuine
 
-#### 1. Fake Loop as Phenomenon
+### Fake Loop as Phenomenon
 
 In PoC, a [**Fake Loop**](../../protocol/unguaranteability-all-loops-are-perhaps-loops.md) is a loop that does not meet the full condition of reciprocity.\
 The subject feels a reply has come back, but in fact, no Instantiation ever occurred.
@@ -10,9 +10,7 @@ The subject feels a reply has come back, but in fact, no Instantiation ever occu
 
 Fake Loops are the everyday face of [PoC’s principle of unguaranteeability](../undecidability-of-consciousness.md), frequently observed in [today's media](../../plugins/media-plugin.md).
 
-***
-
-#### 2. Phantoming as Practice
+### Phantoming as Practice
 
 **Phantoming** names the cultural and social practice of making Fake Loops look Genuine, or fabricating them afterward as if they had been genuine all along.
 
@@ -27,9 +25,7 @@ Examples:
 
 Phantoming is the operational logic that sustains and amplifies Fake Loops in society.
 
-***
-
-#### 3. The Blurring of Genuine and Fake
+### The Blurring of Genuine and Fake
 
 Phantoming works because it exploits PoC’s basic principles:
 
@@ -39,18 +35,14 @@ Phantoming works because it exploits PoC’s basic principles:
 
 Genuine and Fake are never fixed categories; they are blurred, rewritten, and constantly contested.
 
-***
-
-#### 4. Philosophical Implication
+### Philosophical Implication
 
 The line between Genuine and Fake is not an objective boundary.\
 It is a **field of mutual deception, staged authenticity, and retrospective rewriting.**
 
 Social reality itself is woven through Phantoming, where Instantiations and Elicitations are endlessly faked, disguised, and re-inscribed _as if_ they were real.
 
-***
-
-#### 5. Summary
+### Summary
 
 * **Fake Loop**: reciprocity absent, yet felt as present.
 * **Phantoming**: the practice of disguising Fake as Genuine, or sustaining it socially as if it were.
