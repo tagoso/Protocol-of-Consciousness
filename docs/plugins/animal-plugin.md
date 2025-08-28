@@ -20,7 +20,7 @@ If the cat meows, the sound is interpreted as a response. A Loop appears to be e
 
 The cat’s meow may be nothing more than a conditioned reflex. Yet for the human participant, it feels like recognition. PoC stresses that this is not an exception but the rule: [**all Loops are Perhaps-Loops**](../protocol/unguaranteability-all-loops-are-perhaps-loops.md)**.** The distinction between “Genuine” and “Fake” is always retrospective and sustained only by belief in reciprocity.
 
-### **Consciousness-in-Tension as Ghost Mode**
+### Consciousness-in-Tension **as Ghost Mode**
 
 Calling a cat and hearing a meow dramatizes the core of PoC: living in [_Ghost Mode_](../protocol/disruptions/ghost-mode.md). Here, one engages with an unverifiable other, treating its signals as if they were Reciprocal Elicitation. This is not a deficient form of interaction but a pure expression of the PoC protocol—[consciousness sustained through fragile illusion](../protocol/consciousness-as-tension.md).
 
