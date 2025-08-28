@@ -1,3 +1,29 @@
+name: Build & Deploy MkDocs (GitHub Pages)
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install -r requirements.txt
+
+      # Generate mkdocs.gen.yml from GitBook SUMMARY.md (headings=groups, bullets=items)
       - name: Generate mkdocs.gen.yml from GitBook SUMMARY.md
         run: |
           set -e
@@ -18,11 +44,12 @@
           lines = open(SUMMARY,'r',encoding='utf-8').read().splitlines()
           lines = [ln.replace('\t','  ') for ln in lines]  # tabs→spaces
 
-          # 見出し（##〜######）＝グループ、箇条書き（*-）＝項目
+          # headings (##..######) → section groups
           h_re  = re.compile(r'^\s*#{2,6}\s+(.+?)(?:\s*<[^>]*>)?\s*$')
+          # bullets "* [Title](href)" or "- [Title](href)"
           li_re = re.compile(r'^(?P<indent>[ ]*)(?:[-*])\s+\[(?P<title>[^\]]+)\]\((?P<href>[^)]+)\)\s*$')
 
-          root_nav = []              # ルートのnav
+          root_nav = []
           current_base_list = root_nav
           stack = [current_base_list]
           indent_unit = None
@@ -47,7 +74,7 @@
               section_list = []
               root_nav.append({ title: section_list })
               current_base_list = section_list
-              stack[:] = [current_base_list]  # reset stack (再代入ではなく内容置換)
+              stack[:] = [current_base_list]   # reset stack (内容置換)
               indent_unit = None
               continue
 
@@ -87,25 +114,19 @@
               print(f"{i:02d}: {ln}")
             sys.exit("ERROR: No entries parsed. Check bullet syntax and headings.")
 
-          # 🔧 後処理：見出しグループ名と同名の「ルート直下の単独項目」を除去（重複防止）
-          section_titles = set()
-          for item in root_nav:
-            if isinstance(item, dict):
-              k = next(iter(item))
-              if isinstance(item[k], list):
-                section_titles.add(k.strip().lower())
-
+          # Dedup: remove top-level leaf that duplicates a section title (e.g., "Core Protocol")
+          section_titles = { next(iter(d)).strip().lower()
+                             for d in root_nav if isinstance(d, dict) and isinstance(next(iter(d.values())), list) }
           dedup_nav = []
           for item in root_nav:
             if isinstance(item, dict):
               k = next(iter(item))
               v = item[k]
               if isinstance(v, list):
-                dedup_nav.append(item)  # これはグループ
+                dedup_nav.append(item)    # section
               else:
-                # ルート直下の“葉”が見出し名と同名なら除外
                 if k.strip().lower() in section_titles:
-                  continue
+                  continue                # drop duplicate leaf
                 dedup_nav.append(item)
             else:
               dedup_nav.append(item)
@@ -118,3 +139,17 @@
           print("=== mkdocs.gen.yml (preview) ===")
           print(open('mkdocs.gen.yml','r',encoding='utf-8').read())
           PY
+
+      - run: mkdocs build -f mkdocs.gen.yml --site-dir _site
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
