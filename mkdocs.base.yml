@@ -18,4 +18,11 @@ plugins:
   - git-revision-date-localized:
       fallback_to_build_date: true
       type: date
-  - print-site
+  - with-pdf:
+      output_path: assets/site.pdf   # 出力先 (_site/assets/site.pdf)
+      cover_title: "Protocol of Consciousness"
+      cover_subtitle: "Full Documentation"
+      author: "PoC Project"
+      toc_title: "Table of Contents"
+      ordered_chapter_level: 2
+      enabled_if_env: ENABLE_PDF_EXPORT
