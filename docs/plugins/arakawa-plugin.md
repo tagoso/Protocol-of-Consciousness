@@ -4,7 +4,7 @@ description: 'Embodiment and Architecture Against Death: Spatial Disruption and 
 
 # Arakawa Plugin
 
-### 1. Arakawa and Madeline Gins: Their Thought
+### Arakawa and Madeline Gins: Their Thought
 
 Arakawa Shusaku (1936–2010) and Madeline Gins (1941–2014) were artists and architects based in New York and Tokyo. They advanced the project of _Reversible Destiny_, aiming to question human life and death through the design of space.
 
@@ -12,7 +12,7 @@ The core of their thought was to reconceive architecture not as a device for com
 
 ***
 
-### 2. The Works of Arakawa and Gins
+### The Works of Arakawa and Gins
 
 Representative works include the **Site of Reversible Destiny – Yoro Park** in Gifu Prefecture and the **Reversible Destiny Lofts Mitaka** in Tokyo.
 
@@ -23,7 +23,7 @@ These architectures are not spectacles of visual beauty alone but **experimental
 
 ***
 
-### 3. PoC Interpretation: Responses Drawn Out by Space
+### PoC Interpretation: Responses Drawn Out by Space
 
 **Forced Instantiation**\
 Spaces normally ignored as mere “background” are, through slopes and distortions, [instantiated](../protocol/operations/instantiation.md) as something that actively addresses me. Here, architecture becomes an _Agent_ in the PoC sense: “an entity upon which consciousness is instantiated.” In this way, architecture and space can rightly be instantiated through bodily experience. This is not an overextension of the concept, but an application consistent [with PoC’s own definition](broken-reference/).
@@ -41,7 +41,7 @@ Through these interactions, Instantiation, Elicitation, and Reciprocal Elicitati
 
 ***
 
-### 4. Extending the Protocol of Consciousness
+### Extending the Protocol of Consciousness
 
 The significance of the Arakawa Plugin lies in making visible, at the level of embodiment and space, the flexibility already inherent in PoC: **any entity can be instantiated as an Agent**.
 
