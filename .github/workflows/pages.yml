@@ -25,76 +25,88 @@ jobs:
         run: |
           set -e
           python - << 'PY'
-          import os, re, sys, yaml, json
+          import os, re, sys, yaml
 
           BASE_CFG = 'mkdocs.base.yml'
           SUMMARY = os.path.join('docs','SUMMARY.md')
 
           if not os.path.exists(BASE_CFG):
-              sys.exit("ERROR: mkdocs.base.yml not found at repo root")
+            sys.exit("ERROR: mkdocs.base.yml not found at repo root")
           if not os.path.exists(SUMMARY):
-              sys.exit("ERROR: docs/SUMMARY.md not found (is GitBook syncing to docs/?)")
+            sys.exit("ERROR: docs/SUMMARY.md not found (is GitBook syncing to docs/?)")
 
           with open(BASE_CFG,'r',encoding='utf-8') as f:
             cfg = yaml.safe_load(f) or {}
 
-          # GitBook summary lines: "- [Title](path.md)" with indentation for nesting
-          link = re.compile(r'^(?P<indent>\s*)-\s*\[(?P<title>[^\]]+)\]\((?P<href>[^)]+)\)')
-          stack = [[]]          # stack of lists; stack[0] == root nav list
-          indent_unit = None    # space count per level (detected)
+          # 1) 事前処理：タブ→2スペース、CRLF対策
+          raw_lines = open(SUMMARY,'r',encoding='utf-8').read().splitlines()
+          norm = []
+          for ln in raw_lines:
+            norm.append(ln.replace('\t','  '))
+          lines = norm
 
-          lines = open(SUMMARY, 'r', encoding='utf-8').read().splitlines()
-          parsed_any = False
+          # 2) GitBookの行: "- [Title](path)" または "* [Title](path)" を許容
+          #    先頭の空白でネストを判定
+          link = re.compile(r'^(?P<indent>[ ]*)(?:[-*])\s+\[(?P<title>[^\]]+)\]\((?P<href>[^)]+)\)')
 
-          for line in lines:
-            m = link.match(line)
+          entries = []
+          min_indent = None
+          for ln in lines:
+            m = link.match(ln)
             if not m:
               continue
-            parsed_any = True
-            spaces = len(m.group('indent'))
-            if indent_unit is None and spaces > 0:
-              indent_unit = spaces
-            level = spaces // (indent_unit or 2)  # default 2 spaces if not detected
-
-            # normalize href
-            href = m.group('href').split('#',1)[0].strip().lstrip('/')
-            if href == '' or href.endswith('/'):
-              href = href + 'README.md'
-            path = os.path.join('docs', href)
-
+            indent = len(m.group('indent'))
+            if indent and (min_indent is None or indent < min_indent):
+              min_indent = indent
             title = m.group('title').strip()
+            href  = m.group('href').strip()
+            entries.append((indent, title, href))
 
-            # ensure stack height == level+1
+          if not entries:
+            print("DEBUG: SUMMARY.md preview (first 30 lines):")
+            for i, ln in enumerate(lines[:30], 1):
+              print(f"{i:02d}: {ln}")
+            sys.exit("ERROR: No entries parsed from docs/SUMMARY.md. Expected lines like '- [Title](path.md)' or '* [Title](path.md)' with optional indentation for nesting.")
+
+          # インデント幅（階層の単位）を推定（最低の正値）。見つからなければ2スペースを既定に
+          unit = min_indent or 2
+
+          # 3) エントリを階層構造に変換
+          stack = [[]]  # ルートのnav配列
+          def collapse():
+            # 下位リストを1段上の最後の要素の子に畳み込む
+            if len(stack) <= 1 or not stack[-2]:
+              return
+            children = stack.pop()
+            last = stack[-1][-1]
+            k = next(iter(last))
+            v = last[k]
+            if isinstance(v, list):
+              v.extend(children)
+            else:
+              last[k] = children
+
+          for indent, title, href in entries:
+            level = indent // unit  # 0始まりのレベル
+
+            # href整理：外部リンクはそのまま、相対は docs/ を前置
+            is_external = href.startswith('http://') or href.startswith('https://')
+            clean = href.split('#',1)[0].lstrip('/')
+            if (not clean) or clean.endswith('/'):
+              clean = clean + 'README.md'
+            path = clean if is_external else os.path.join('docs', clean)
+
+            # スタック高さを level+1 に調整
             while len(stack)-1 < level:
               stack.append([])
             while len(stack)-1 > level:
-              children = stack.pop()
-              if stack[-1]:
-                last = stack[-1][-1]
-                key = next(iter(last))
-                val = last[key]
-                if isinstance(val, list):
-                  val.extend(children)
-                else:
-                  last[key] = children
+              collapse()
 
-            # append this node as leaf for now
             stack[-1].append({ title: path })
 
-          # collapse remaining children
+          # 残りを畳み込み
           while len(stack) > 1:
-            children = stack.pop()
-            if stack[-1]:
-              last = stack[-1][-1]
-              key = next(iter(last))
-              val = last[key]
-              if isinstance(val, list):
-                val.extend(children)
-              else:
-                last[key] = children
-
-          if not parsed_any:
-            sys.exit("ERROR: No entries parsed from docs/SUMMARY.md. Check the syntax '- [Title](path.md)'.")
+            collapse()
 
           cfg['nav'] = stack[0]
 
