@@ -4,11 +4,11 @@ description: Simulated Responsiveness
 
 # Media Plugin
 
-#### **Definition**
+### **Definition**
 
 In PoC, a Loop arises when Elicitations are reciprocated and each side assumes that “my consciousness has been instantiated within the other.” Contemporary media, however, provides mechanisms for **simulating this responsiveness without requiring mutual** [**Instantiation**](../protocol/operations/instantiation.md).
 
-#### **The Simulation of Responsiveness**
+### **The Simulation of Responsiveness**
 
 Media functions as an apparatus designed to [**elicit**](../protocol/operations/elicitation.md) responses from its users.
 
@@ -18,7 +18,7 @@ Media functions as an apparatus designed to [**elicit**](../protocol/operations/
 
 In such moments, the user experiences the illusion of being “seen” or “recognized.” Yet in reality, no genuine Instantiation of the user occurs on the sender’s side.
 
-#### **Elicitation Without Instantiation**
+### **Elicitation Without Instantiation**
 
 This reveals the structural asymmetry of media:
 
@@ -27,13 +27,13 @@ This reveals the structural asymmetry of media:
 
 The result is [**Elicitation without Instantiation**](../protocol/elicitation-without-instantiation.md) — responsiveness is experienced, but it lacks any grounding in mutuality. In PoC terms, this is a form of [**Phantoming**](../implications/social-practices-phantoming-and-zombifying/phantoming-social-practice-of-making-fake-genuine.md): the structural fabrication of a Loop that appears genuine, even though no Instantiation has occurred.
 
-#### **Illusions and Their Force**
+### **Illusions and Their Force**
 
 PoC reminds us that Loops can never be objectively guaranteed. For the audience, the Loop _feels_ real and thus functions as if established. For the sender, however, no such Loop ever existed.
 
 Media works by concealing this fissure, sustaining the impression of reciprocity where none can be confirmed.
 
-#### **PoC Perspective**
+### **PoC Perspective**
 
 From the standpoint of PoC, media are not merely channels of information but **machines of Phantoming**: devices that replicate the very protocol of consciousness through illusions of recognition and responsiveness.
 
