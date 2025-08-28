@@ -29,32 +29,32 @@ jobs:
           set -e
           python - << 'PY'
           import os, re, sys, yaml
-
+      
           BASE_CFG = 'mkdocs.base.yml'
           SUMMARY  = os.path.join('docs','SUMMARY.md')
-
+      
           if not os.path.exists(BASE_CFG):
             sys.exit("ERROR: mkdocs.base.yml not found at repo root")
           if not os.path.exists(SUMMARY):
             sys.exit("ERROR: docs/SUMMARY.md not found (is GitBook syncing to docs/?)")
-
+      
           with open(BASE_CFG,'r',encoding='utf-8') as f:
             cfg = yaml.safe_load(f) or {}
-
+      
           lines = open(SUMMARY,'r',encoding='utf-8').read().splitlines()
           lines = [ln.replace('\t','  ') for ln in lines]  # tabs→spaces
-
+      
           # headings (##..######) → section groups
           h_re  = re.compile(r'^\s*#{2,6}\s+(.+?)(?:\s*<[^>]*>)?\s*$')
           # bullets "* [Title](href)" or "- [Title](href)"
           li_re = re.compile(r'^(?P<indent>[ ]*)(?:[-*])\s+\[(?P<title>[^\]]+)\]\((?P<href>[^)]+)\)\s*$')
-
+      
           root_nav = []
           current_base_list = root_nav
           stack = [current_base_list]
           indent_unit = None
           parsed_any  = False
-
+      
           def collapse_once():
             if len(stack) <= 1 or not stack[-2]:
               return
@@ -66,7 +66,7 @@ jobs:
               v.extend(children)
             else:
               last[k] = children
-
+      
           for ln in lines:
             mh = h_re.match(ln)
             if mh:
@@ -74,47 +74,51 @@ jobs:
               section_list = []
               root_nav.append({ title: section_list })
               current_base_list = section_list
-              stack[:] = [current_base_list]   # reset stack (内容置換)
+              stack[:] = [current_base_list]
               indent_unit = None
               continue
-
+      
             m = li_re.match(ln)
             if not m:
               continue
-
+      
             parsed_any = True
             spaces = len(m.group('indent'))
             if indent_unit is None and spaces > 0:
               indent_unit = spaces
             unit  = indent_unit or 2
             level = spaces // unit
-
+      
             title = m.group('title').strip()
             href  = m.group('href').strip()
+      
+            # normalize: strip anchors, leading slash; trailing "/" → README.md
             href  = href.split('#',1)[0].lstrip('/')
             if href == '' or href.endswith('/'):
               href = href + 'README.md'
-
+      
             is_ext = href.startswith('http://') or href.startswith('https://')
-            path   = href if is_ext else os.path.join('docs', href)
-
+      
+            # 👇 重要：docs/ を付けない（docs_dir 相対で書く）
+            path   = href if is_ext else href
+      
             while len(stack)-1 < level:
               stack.append([])
             while len(stack)-1 > level:
               collapse_once()
-
+      
             stack[-1].append({ title: path })
-
+      
           while len(stack) > 1:
             collapse_once()
-
+      
           if not parsed_any:
             print("DEBUG: SUMMARY.md (first 40 lines):")
             for i, ln in enumerate(lines[:40],1):
               print(f"{i:02d}: {ln}")
             sys.exit("ERROR: No entries parsed. Check bullet syntax and headings.")
-
-          # Dedup: remove top-level leaf that duplicates a section title (e.g., "Core Protocol")
+      
+          # Dedup: remove top-level leaf duplicating a section title
           section_titles = { next(iter(d)).strip().lower()
                              for d in root_nav if isinstance(d, dict) and isinstance(next(iter(d.values())), list) }
           dedup_nav = []
@@ -123,22 +127,23 @@ jobs:
               k = next(iter(item))
               v = item[k]
               if isinstance(v, list):
-                dedup_nav.append(item)    # section
+                dedup_nav.append(item)
               else:
                 if k.strip().lower() in section_titles:
-                  continue                # drop duplicate leaf
+                  continue
                 dedup_nav.append(item)
             else:
               dedup_nav.append(item)
-
+      
           cfg['nav'] = dedup_nav
-
+      
           with open('mkdocs.gen.yml','w',encoding='utf-8') as f:
             yaml.dump(cfg, f, allow_unicode=True, sort_keys=False)
-
+      
           print("=== mkdocs.gen.yml (preview) ===")
           print(open('mkdocs.gen.yml','r',encoding='utf-8').read())
           PY
+
 
       - run: mkdocs build -f mkdocs.gen.yml --site-dir _site
       - uses: actions/upload-pages-artifact@v3
