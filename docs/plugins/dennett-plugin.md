@@ -4,41 +4,31 @@ description: PoC and the Intentional Stance
 
 # Dennett Plugin
 
-#### Core Difference
+### Core Difference
 
 PoC and Daniel Dennett’s _Intentional Stance_ resonate at first glance. Both frameworks reject consciousness as a hidden inner substance, instead treating it as a product of interpretation. Yet PoC radicalizes this move: consciousness is formalized as an _illusion under constant risk of collapse_. This tension marks the decisive difference.
 
-***
-
-#### 1. Scope of Application
+### Scope of Application
 
 * **Dennett**: The intentional stance is primarily applied to entities that display complex, adaptive behavior — humans, animals, or sophisticated machines.
 * **PoC**: [Instantiation](../protocol/operations/instantiation.md) is not restricted to such systems. One may instantiate consciousness in a cat, an anime character, a curtain, or even the dead. What matters is not ontological status or behavioral complexity, but the very act of positing the other as conscious.
 
-***
-
-#### 2. Consciousness as Tension
+### Consciousness as Tension
 
 * **Dennett**: The intentional stance is a _stable predictive strategy_ for interpreting behavior.
 * **PoC**: Instantiation is always fragile. [Elicitation](../protocol/operations/elicitation.md) may fail to be returned, and even established [Loops](../protocol/operations/loop-reciprocal-elicitation.md) remain vulnerable to breakdown. Consciousness is experienced as _tension_ — vivid precisely because it can collapse at any moment.
 
-***
-
-#### 3. Ethical Implications
+### Ethical Implications
 
 * **Dennett**: The intentional stance is discussed mainly as a cognitive tool.
 * **PoC**: To withhold Instantiation is to refuse recognition of the other as a conscious subject. [Such refusal](../implications/social-practices-phantoming-and-zombifying/zombifying-social-practice-of-making-genuine-fake.md) carries ethical consequences: neglect, exclusion, violence, even killing. The stability of the illusion of consciousness thus bears profound moral weight.
 
-***
-
-#### 4. Meta-stance
+### Meta-stance
 
 * **Dennett**: “Everyone thinks they are an expert on consciousness — but I am the true expert.” Authority is centralized.
 * **PoC**: [“Everyone is an expert on consciousness.”](../) Expertise is democratized, grounded in lived experience rather than reserved for specialists.
 
-***
-
-#### 5. Comparison: Competence without Comprehension and Elicitation without Instantiation
+### Comparison: "Competence without Comprehension" and "Elicitation without Instantiation"
 
 Dennett’s **Competence without Comprehension** and PoC’s **Elicitation without Instantiation** share a striking parallel. Dennett highlights that an entity may perform highly competent behavior without any genuine comprehension. PoC likewise emphasizes that Elicitation may appear reciprocated without any genuine Instantiation in the other.
 
@@ -51,9 +41,7 @@ This parallel sharpens PoC’s distinctive claim: all Loops are **Perhaps-Loops*
 
 That said, their emphases differ. Dennett focuses on predictive strategies for explaining behavior, while PoC highlights the lived fragility of belief and the anxiety of collapse. The contrast is illuminating: Dennett describes cognition from the outside, PoC from within the unstable experience of consciousness.
 
-***
-
-#### Summary
+### Summary
 
 PoC builds upon Dennett’s insight but diverges in decisive ways:
 
