@@ -12,31 +12,42 @@ In this way, consciousness is treated not as an essence residing in the self, bu
 
 ***
 
-#### Operation Process
+### Operation Process
 
-*   [**Instantiation**](instantiation.md)\
-    An illusion of the other’s consciousness arises internally.\
-    &#xNAN;_(Example: when observing someone through a camera, they appear as if they are conscious.)_
+[**Instantiation**](instantiation.md)
 
-    ↓
-*   [**Elicitation**](elicitation.md)\
-    An agent bids for the other to instantiate them as conscious.\
-    &#xNAN;_(Concrete forms: waving, calling someone’s name, greeting aloud, or sending a message — gestures that carry the intent “see me as conscious.”)_
+An illusion of the other’s consciousness arises internally.
 
-    ↓
-*   **Reciprocal Elicitation**\
-    The other responds with a double movement: regarding me as conscious while at the same time demanding, _“regard me as conscious too.”_\
-    &#xNAN;_(An agent believes their instantiation occurs within the other, and an illusion of their own consciousness arises there.)_
+_(Example: when observing someone through a camera, they appear as if they are conscious.)_
 
-    ↓
-* [**Loop**](loop-reciprocal-elicitation.md)\
-  Reciprocal Elicitations stabilize through circulation.\
-  → The boundary between subject and object becomes blurred.\
-  → Through assimilation, [the illusion of self-consciousness](../../implications/self-consciousness-as-structual-paradox.md) reinforces itself.
+↓
+
+[**Elicitation**](elicitation.md)
+
+An agent bids for the other to instantiate them as conscious.
+
+_(Concrete forms: waving, calling someone’s name, greeting aloud, or sending a message — gestures that carry the intent “see me as conscious.”)_
+
+↓
+
+**Reciprocal Elicitation**
+
+The other responds with a double movement: regarding me as conscious while at the same time demanding, _“regard me as conscious too.”_
+
+_(An agent believes their instantiation occurs within the other, and an illusion of their own consciousness arises there.)_
+
+↓
+
+[**Loop**](loop-reciprocal-elicitation.md)
+
+Reciprocal Elicitations stabilize through circulation.
+
+* The boundary between subject and object becomes blurred.
+* Through assimilation, [the illusion of self-consciousness](../../implications/self-consciousness-as-structual-paradox.md) reinforces itself.
 
 ***
 
-#### Quick Notation (for reference)
+### Quick Notation (for reference)
 
 * _i\_A(B)_ = Instantiation of B’s consciousness within A
 * _e\_{A→B}_ = Elicitation: A’s bid for B to instantiate A
