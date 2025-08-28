@@ -4,19 +4,19 @@ site_description: "Protocol of Consciousness (PoC) official documentation. This 
 site_author: "Tago So"
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.indexes
-    - navigation.footer   # ← 前後カード
-    - navigation.top          # サイドバーをトップ揃え
+    - navigation.footer # ← 前後カード
+    - navigation.top # サイドバーをトップ揃え
 plugins:
   - search
   - git-revision-date-localized:
       fallback_to_build_date: true
       type: date
   - print-site:
-      add_to_navigation: true        # サイドナビに出すなら true
+      add_to_navigation: true # サイドナビに出すなら true
       print_page_basename: print_page # /print_page/ が生成される
       add_table_of_contents: true
       enumerate_headings: true
       add_cover_page: true
-

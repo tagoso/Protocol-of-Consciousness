@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {# GitBook frontmatter: description をタイトル下に表示 #}
+  {% if page.meta and page.meta.description %}
+    <p class="poc-description">
+      {{ page.meta.description }}
+    </p>
+  {% endif %}
+  {{ super() }}
+{% endblock content %}
+
+{% block extrahead %}
+  {{ super() }}
+  <style>
+    .poc-description{
+      margin-top:-0.5em;
+      margin-bottom:1.5em;
+      font-size:0.95em;
+      color:var(--md-default-fg-color--lighter);
+      font-style:italic;
+    }
+  </style>
+{% endblock extrahead %}
