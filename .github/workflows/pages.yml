@@ -20,7 +20,7 @@ jobs:
           python-version: '3.x'
       - run: pip install -r requirements.txt
 
-      # SUMMARY.md → nav 生成 → mkdocs.gen.yml を作成（プレビュー出力あり）
+      # SUMMARY.md -> nav生成（GitBookの見出し=Groupをセクション化、*/- 箇条書き&インデント対応）
       - name: Generate mkdocs.gen.yml from GitBook SUMMARY.md
         run: |
           set -e
@@ -28,7 +28,7 @@ jobs:
           import os, re, sys, yaml
 
           BASE_CFG = 'mkdocs.base.yml'
-          SUMMARY = os.path.join('docs','SUMMARY.md')
+          SUMMARY  = os.path.join('docs','SUMMARY.md')
 
           if not os.path.exists(BASE_CFG):
             sys.exit("ERROR: mkdocs.base.yml not found at repo root")
@@ -38,46 +38,31 @@ jobs:
           with open(BASE_CFG,'r',encoding='utf-8') as f:
             cfg = yaml.safe_load(f) or {}
 
-          # 1) 事前処理：タブ→2スペース、CRLF対策
-          raw_lines = open(SUMMARY,'r',encoding='utf-8').read().splitlines()
-          norm = []
-          for ln in raw_lines:
-            norm.append(ln.replace('\t','  '))
-          lines = norm
+          lines = open(SUMMARY,'r',encoding='utf-8').read().splitlines()
+          # タブ→2スペースに正規化
+          lines = [ln.replace('\t','  ') for ln in lines]
 
-          # 2) GitBookの行: "- [Title](path)" または "* [Title](path)" を許容
-          #    先頭の空白でネストを判定
-          link = re.compile(r'^(?P<indent>[ ]*)(?:[-*])\s+\[(?P<title>[^\]]+)\]\((?P<href>[^)]+)\)')
+          # 見出し（##〜######）を検出してグループ化
+          h_re   = re.compile(r'^\s*#{2,6}\s+(.+?)(?:\s*<[^>]*>)?\s*$')
+          # 箇条書き "- [Title](href)" または "* [Title](href)"
+          li_re  = re.compile(r'^(?P<indent>[ ]*)(?:[-*])\s+\[(?P<title>[^\]]+)\]\((?P<href>[^)]+)\)\s*$')
 
-          entries = []
-          min_indent = None
-          for ln in lines:
-            m = link.match(ln)
-            if not m:
-              continue
-            indent = len(m.group('indent'))
-            if indent and (min_indent is None or indent < min_indent):
-              min_indent = indent
-            title = m.group('title').strip()
-            href  = m.group('href').strip()
-            entries.append((indent, title, href))
+          root_nav = []    # ルートの nav 配列
+          # 見出しセクションが無い最初の項目（Declaration/Abstractなど）を入れる場所
+          current_base_list = root_nav
 
-          if not entries:
-            print("DEBUG: SUMMARY.md preview (first 30 lines):")
-            for i, ln in enumerate(lines[:30], 1):
-              print(f"{i:02d}: {ln}")
-            sys.exit("ERROR: No entries parsed from docs/SUMMARY.md. Expected lines like '- [Title](path.md)' or '* [Title](path.md)' with optional indentation for nesting.")
+          # セクション内の階層管理用スタック（各要素はlist）
+          stack = [current_base_list]
+          indent_unit = None
+          parsed_any  = False
 
-          # インデント幅（階層の単位）を推定（最低の正値）。見つからなければ2スペースを既定に
-          unit = min_indent or 2
-
-          # 3) エントリを階層構造に変換
-          stack = [[]]  # ルートのnav配列
-          def collapse():
-            # 下位リストを1段上の最後の要素の子に畳み込む
+          def collapse_once():
+            """ 下層リストを1段上の最後の要素の子に畳み込む """
+            nonlocal stack
             if len(stack) <= 1 or not stack[-2]:
               return
             children = stack.pop()
+            # 1つ上の最後の要素に子として付ける
             last = stack[-1][-1]
             k = next(iter(last))
             v = last[k]
@@ -86,29 +71,63 @@ jobs:
             else:
               last[k] = children
 
-          for indent, title, href in entries:
-            level = indent // unit  # 0始まりのレベル
+          for ln in lines:
+            # 1) セクション見出し？
+            m_h = h_re.match(ln)
+            if m_h:
+              title = m_h.group(1).strip()
+              # 新しいセクションを作成し、以後の項目はこの配下に入れる
+              section_list = []
+              root_nav.append({ title: section_list })
+              current_base_list = section_list
+              stack = [current_base_list]  # スタックをセクション配下起点にリセット
+              indent_unit = None
+              continue
 
-            # href整理：外部リンクはそのまま、相対は docs/ を前置
-            is_external = href.startswith('http://') or href.startswith('https://')
-            clean = href.split('#',1)[0].lstrip('/')
-            if (not clean) or clean.endswith('/'):
-              clean = clean + 'README.md'
-            path = clean if is_external else os.path.join('docs', clean)
+            # 2) 箇条書き項目？
+            m = li_re.match(ln)
+            if not m:
+              continue
 
-            # スタック高さを level+1 に調整
+            parsed_any = True
+            spaces = len(m.group('indent'))
+            if indent_unit is None and spaces > 0:
+              indent_unit = spaces
+            unit = indent_unit or 2
+            level = spaces // unit  # 0,1,2,...
+
+            title = m.group('title').strip()
+            href  = m.group('href').strip()
+
+            # href整形：アンカー除去・先頭スラッシュ除去・末尾/はREADME.mdに
+            href = href.split('#',1)[0].lstrip('/')
+            if href == '' or href.endswith('/'):
+              href = href + 'README.md'
+
+            # 外部リンクはそのまま、相対は docs/ を前置
+            is_ext = href.startswith('http://') or href.startswith('https://')
+            path = href if is_ext else os.path.join('docs', href)
+
+            # スタック高さを level+1 に合わせる
             while len(stack)-1 < level:
               stack.append([])
             while len(stack)-1 > level:
-              collapse()
+              collapse_once()
 
+            # いったん葉として追加
             stack[-1].append({ title: path })
 
-          # 残りを畳み込み
+          # ファイル末尾の畳み込み
           while len(stack) > 1:
-            collapse()
+            collapse_once()
 
-          cfg['nav'] = stack[0]
+          if not parsed_any:
+            print("DEBUG: SUMMARY.md (first 40 lines):")
+            for i, ln in enumerate(lines[:40],1):
+              print(f"{i:02d}: {ln}")
+            sys.exit("ERROR: No entries parsed from docs/SUMMARY.md. Check bullet syntax '* [Title](path.md)' or '- [Title](path.md)' and heading levels '## Heading'.")
+
+          cfg['nav'] = root_nav
 
           with open('mkdocs.gen.yml','w',encoding='utf-8') as f:
             yaml.dump(cfg, f, allow_unicode=True, sort_keys=False)
