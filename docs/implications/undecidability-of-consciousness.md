@@ -4,7 +4,8 @@ description: 'Logical Consequences: The External Limit of PoC'
 
 # Undecidability of Consciousness
 
-The Protocol of Consciousness (PoC) begins with its [minimal operations](../protocol/operations/): Instantiation, Elicitation, Reciprocal Elicitation, and Loop.\
+The Protocol of Consciousness (PoC) begins with its [minimal operations](../protocol/operations/): Instantiation, Elicitation, Reciprocal Elicitation, and Loop.
+
 Yet when followed through consistently, this framework leads to an unavoidable conclusion: **there is no objective way to decide whether the other truly possesses consciousness.**
 
 **The Invisible Other**
