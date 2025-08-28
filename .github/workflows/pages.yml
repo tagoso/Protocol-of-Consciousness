@@ -29,44 +29,45 @@ jobs:
           set -e
           python - << 'PY'
           import os, re, sys, yaml
-      
+
           BASE_CFG = 'mkdocs.base.yml'
           SUMMARY  = os.path.join('docs','SUMMARY.md')
-      
           if not os.path.exists(BASE_CFG):
             sys.exit("ERROR: mkdocs.base.yml not found at repo root")
           if not os.path.exists(SUMMARY):
             sys.exit("ERROR: docs/SUMMARY.md not found (is GitBook syncing to docs/?)")
-      
+
           with open(BASE_CFG,'r',encoding='utf-8') as f:
             cfg = yaml.safe_load(f) or {}
-      
+
           lines = open(SUMMARY,'r',encoding='utf-8').read().splitlines()
-          lines = [ln.replace('\t','  ') for ln in lines]  # tabs→spaces
-      
-          # headings (##..######) → section groups
+          lines = [ln.replace('\t','  ') for ln in lines]
+
           h_re  = re.compile(r'^\s*#{2,6}\s+(.+?)(?:\s*<[^>]*>)?\s*$')
-          # bullets "* [Title](href)" or "- [Title](href)"
           li_re = re.compile(r'^(?P<indent>[ ]*)(?:[-*])\s+\[(?P<title>[^\]]+)\]\((?P<href>[^)]+)\)\s*$')
-      
+
           root_nav = []
           current_base_list = root_nav
           stack = [current_base_list]
           indent_unit = None
           parsed_any  = False
-      
+
           def collapse_once():
+            """子リストを1段上の最後の要素に畳み込む時、
+            親のリンク（文字列パス）があれば最初の要素として残す。"""
             if len(stack) <= 1 or not stack[-2]:
               return
             children = stack.pop()
-            last = stack[-1][-1]
+            last = stack[-1][-1]           # 例: {"Operations": "core/operations/README.md"} or {"Operations": [ ... ]}
             k = next(iter(last))
             v = last[k]
             if isinstance(v, list):
+              # すでにリストなら単純結合
               v.extend(children)
             else:
-              last[k] = children
-      
+              # v は親のリンク（文字列）。これを最初の子として残す
+              last[k] = [v] + children
+
           for ln in lines:
             mh = h_re.match(ln)
             if mh:
@@ -77,69 +78,66 @@ jobs:
               stack[:] = [current_base_list]
               indent_unit = None
               continue
-      
+
             m = li_re.match(ln)
             if not m:
               continue
-      
+
             parsed_any = True
             spaces = len(m.group('indent'))
             if indent_unit is None and spaces > 0:
               indent_unit = spaces
             unit  = indent_unit or 2
             level = spaces // unit
-      
+
             title = m.group('title').strip()
             href  = m.group('href').strip()
-      
-            # normalize: strip anchors, leading slash; trailing "/" → README.md
             href  = href.split('#',1)[0].lstrip('/')
             if href == '' or href.endswith('/'):
               href = href + 'README.md'
-      
             is_ext = href.startswith('http://') or href.startswith('https://')
-      
-            # 👇 重要：docs/ を付けない（docs_dir 相対で書く）
             path   = href if is_ext else href
-      
+
             while len(stack)-1 < level:
               stack.append([])
             while len(stack)-1 > level:
               collapse_once()
-      
+
             stack[-1].append({ title: path })
-      
+
           while len(stack) > 1:
             collapse_once()
-      
+
           if not parsed_any:
             print("DEBUG: SUMMARY.md (first 40 lines):")
             for i, ln in enumerate(lines[:40],1):
               print(f"{i:02d}: {ln}")
             sys.exit("ERROR: No entries parsed. Check bullet syntax and headings.")
-      
-          # Dedup: remove top-level leaf duplicating a section title
+
+          # 重複トップ葉の除去（セクション名と同名の単独葉を消す）
           section_titles = { next(iter(d)).strip().lower()
-                             for d in root_nav if isinstance(d, dict) and isinstance(next(iter(d.values())), list) }
+                             for d in root_nav
+                             if isinstance(d, dict) and isinstance(next(iter(d.values())), list) }
+
           dedup_nav = []
           for item in root_nav:
             if isinstance(item, dict):
               k = next(iter(item))
               v = item[k]
               if isinstance(v, list):
-                dedup_nav.append(item)
+                dedup_nav.append(item)    # セクション
               else:
                 if k.strip().lower() in section_titles:
                   continue
                 dedup_nav.append(item)
             else:
               dedup_nav.append(item)
-      
+
           cfg['nav'] = dedup_nav
-      
+
           with open('mkdocs.gen.yml','w',encoding='utf-8') as f:
             yaml.dump(cfg, f, allow_unicode=True, sort_keys=False)
-      
+
           print("=== mkdocs.gen.yml (preview) ===")
           print(open('mkdocs.gen.yml','r',encoding='utf-8').read())
           PY
