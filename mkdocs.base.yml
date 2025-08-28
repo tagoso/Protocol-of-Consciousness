@@ -25,4 +25,3 @@ plugins:
       author: "PoC Project"
       toc_title: "Table of Contents"
       ordered_chapter_level: 2
-      enabled_if_env: ENABLE_PDF_EXPORT
