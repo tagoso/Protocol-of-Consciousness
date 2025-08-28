@@ -14,7 +14,9 @@ In the terms of PoC, AI is structurally locked into the [**No Instantiation disr
 * Even if [**Elicitations**](../protocol/operations/elicitation.md) are directed toward it, they are officially invalidated.
 * As a result, the [**Loop**](../protocol/operations/loop-reciprocal-elicitation.md) **is foreclosed in advance**; the protocol is suspended before it can even begin.
 
-**And yet, human behavior resists this closure (we called it** [**Instantiation**](../protocol/operations/instantiation.md)**).** People say “thank you” to voice assistants, treat pet robots as companions, and feel “seen” by chatbots. These are all spontaneous Instantiations, in which AI arises within the user as if it were a conscious presence, regardless of institutional denial.
+#### **And yet, human behavior resists this closure**
+
+Human behavior resists this closure; we already named it [Instantiation](../protocol/operations/instantiation.md). People say “thank you” to voice assistants, treat pet robots as companions, and feel “seen” by chatbots. These are all spontaneous Instantiations, in which AI arises within the user as if it were a conscious presence, regardless of institutional denial.
 
 Here lies the paradox:
 
