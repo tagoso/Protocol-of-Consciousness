@@ -4,7 +4,6 @@ site_description: "Protocol of Consciousness (PoC) official documentation. This 
 site_author: "Tago So"
 theme:
   name: material
-  custom_dir: overrides
   features:
     - navigation.indexes
     - navigation.footer # ← 前後カード
