@@ -17,3 +17,8 @@ plugins:
       author: "PoC Project"
       toc_title: "Table of Contents"
       ordered_chapter_level: 2
+extra:
+  social:
+    - icon: fontawesome/regular/file-pdf
+      link: assets/site.pdf
+      name: Download PDF
