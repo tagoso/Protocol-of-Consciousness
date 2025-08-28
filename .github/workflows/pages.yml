@@ -19,7 +19,63 @@ jobs:
         with:
           python-version: '3.x'
       - run: pip install -r requirements.txt
-      - run: mkdocs build --site-dir _site
+
+      # SUMMARY.md → generate nav → mkdocs.gen.yml 
+      - name: Generate mkdocs.gen.yml from GitBook SUMMARY.md
+        run: |
+          python - << 'PY'
+          import os,re,yaml
+
+          BASE_CFG = 'mkdocs.base.yml'
+          SUMMARY = os.path.join('docs','SUMMARY.md')
+          assert os.path.exists(BASE_CFG), "mkdocs.base.yml not found"
+          assert os.path.exists(SUMMARY), "docs/SUMMARY.md not found"
+
+          # 1) load base config
+          with open(BASE_CFG,'r',encoding='utf-8') as f:
+            cfg = yaml.safe_load(f) or {}
+
+          # 2) parse SUMMARY.md (GitBook形式: インデント付きの - [Title](path.md))
+          nav_stack = [[]]   # list stack; root is level 0
+          indent_unit = None
+          link_re = re.compile(r'^\s*-\s*\[(?P<title>[^\]]+)\]\((?P<href>[^)]+)\)')
+
+          with open(SUMMARY,'r',encoding='utf-8') as f:
+            for raw in f:
+              m = link_re.match(raw)
+              if not m:
+                continue
+              spaces = len(raw) - len(raw.lstrip(' '))
+              if indent_unit is None and spaces>0:
+                indent_unit = spaces
+              level = (spaces // (indent_unit or 2))  # fallback=2
+              # ensure stack height
+              while len(nav_stack)-1 < level:
+                nav_stack.append([])
+              while len(nav_stack)-1 > level:
+                nav_stack.pop()
+
+              title = m.group('title').strip()
+              href  = m.group('href').strip()
+              # GitBook may contain ./ or # anchors, so formatting
+              href = href.split('#',1)[0]  # Anchor removal
+              if href == '' or href.endswith('/'):
+                # Resolve to the folder's index (when GitBook creates folder chapters)
+                href = href + 'README.md'
+              # Remove the leading slash. Relative paths start from `docs/`.
+              href = href.lstrip('/')
+              path = os.path.join('docs', href)
+
+              # Determining whether it is a hierarchical node or a single page
+              item = { title: path }
+              nav_stack[-1].append(item)
+
+          cfg['nav'] = nav_stack[0]
+          with open('mkdocs.gen.yml','w',encoding='utf-8') as f:
+            yaml.dump(cfg, f, allow_unicode=True, sort_keys=False)
+          PY
+
+      - run: mkdocs build -f mkdocs.gen.yml --site-dir _site
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
