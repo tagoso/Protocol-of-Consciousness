@@ -8,7 +8,7 @@ Each failure is not an exception to PoC but its very necessity. PoC is a toolbox
 
 #### **No Instantiation**
 
-_(→_ [_Death Mode_](death-mode.md)_)_
+_(See_ [_Death Mode_](death-mode.md)_)_
 
 No assumption of the other’s consciousness occurs. The other remains an object, a machine, or mere scenery.
 
@@ -18,7 +18,7 @@ An illusion of the other’s consciousness arises, but no [Elicitation](../opera
 
 #### **Elicitation not Returned or Postponed**
 
-_(→_ [_Love Mode_](love-mode.md)_)_
+_(See_ [_Love Mode_](love-mode.md)_)_
 
 In this pattern, an agent continues to elicit toward the other but receives no [Reciprocal Elicitation](../operations/loop-reciprocal-elicitation.md) in return. Technically, the Loop fails to form, since reciprocity does not arise. Yet PoC identifies this condition not simply as failure, but as a distinctive operational mode: [**Love Mode**](love-mode.md).
 
@@ -28,7 +28,7 @@ Here, Elicitation functions less as a transaction and more as a unilateral devot
 
 #### [**Elicitation without Instantiation**](../elicitation-without-instantiation.md)
 
-_(→_ [_Ghost Mode_](ghost-mode.md)_)_
+_(See_ [_Ghost Mode_](ghost-mode.md)_)_
 
 In this pattern, an agent elicits toward the other, but without any genuine Instantiation of the other’s consciousness. _(Note:_ [_Instantiation_](../operations/instantiation.md) _is never directly observable, neither from a third party nor from the first person. Its presence or absence is always a matter of belief.)_
 
@@ -40,21 +40,21 @@ Here Ghost Mode demonstrates one of PoC’s central principles: **consciousness 
 
 #### **Loop Breakdown**
 
-_(→_ [_Death Mode_](death-mode.md)_)_
+_(See_ [_Death Mode_](death-mode.md)_)_
 
 A Loop was once established but later collapses. Causes include betrayal, rejection, systemic collapse, or death.
 
 #### Self-Internalization of the Loop
 
-(→ [Mirror Mode](mirror-mode.md))
+(_See_ [Mirror Mode](mirror-mode.md))
 
 Reciprocity from the external other fails, or remains radically uncertain. Instead, the agent stages the “position of the other” within themselves. Here, Elicitation and Reciprocal Elicitation circulate internally, giving rise to a Loop that is sustained without external confirmation.
 
-Mirror Mode exemplifies a paradoxical response to disruption: it neither denies nor resolves Unguaranteeability, but **folds it inward**. What is believed to be recognition from outside is, in truth, generated and maintained internally. This makes explicit the structural paradox of self-consciousness within PoC.
+Mirror Mode exemplifies a paradoxical response to disruption: it neither denies nor resolves Unguaranteeability, but **folds it inward**. What is believed to be recognition from outside is, in truth, generated and maintained internally. This makes explicit [the structural paradox of self-consciousness](../../implications/self-consciousness-as-structual-paradox.md) within PoC.
 
 #### **Protocol Violation**
 
-_(→_ [_Zombifying_](../../implications/social-practices-phantoming-and-zombifying/zombifying-social-practice-of-making-genuine-fake.md)_)_
+_(See_ [_Zombifying_](../../implications/social-practices-phantoming-and-zombifying/zombifying-social-practice-of-making-genuine-fake.md)_)_
 
 An agent refuses to recognize the other as conscious, while still demanding to be treated as conscious themselves. This generates asymmetry, unfairness, and potential violence.
 
@@ -67,9 +67,9 @@ In PoC, a **Mode** is a recognizable pattern in which the basic elements of the 
 * [**Love**](love-mode.md): Elicitation continues even without the guarantee of Reciprocal Elicitation.
 * [**Ghost**](ghost-mode.md): Reciprocity that cannot be verified is nevertheless experienced _“as if”_ it were real.
 * [**Death**](death-mode.md): An established Loop collapses into confirmed absence; the Loop becomes impossible.
-* [**Mirror**](mirror-mode.md): The self misplaces itself into the other’s position, [generating Instantiation of the self and an internal Loop](../../implications/self-consciousness-as-structual-paradox.md).
+* [**Mirror**](mirror-mode.md): The self misplaces itself into the other’s position, generating Instantiation of the self and an internal Loop.
 
-→ Together, these modes show how the core mechanics of PoC — **Elicitation and Loop** — unfold into multiple human experiences when displaced or extended.
+Together, these modes show how the core mechanics of PoC — **Elicitation and Loop** — unfold into multiple human experiences when displaced or extended.
 
 These four — Love, Ghost, Death, and Mirror — can be taken as the core Modes of PoC for now. They are not meant as an exhaustive taxonomy, but as an initial basis. Other Modes may later emerge, or be derived as combinations and variations of these four.
 
