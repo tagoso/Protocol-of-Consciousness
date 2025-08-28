@@ -4,7 +4,7 @@ description: 'Structural Consequences: The Internal Consequence of PoC'
 
 # Self-Consciousness as Structual Paradox
 
-#### 1. The Basic Elements of PoC (Recap)
+### The Basic Elements of PoC (Recap)
 
 The Protocol of Consciousness (PoC) unfolds through four basic elements:
 
@@ -15,9 +15,7 @@ The Protocol of Consciousness (PoC) unfolds through four basic elements:
 
 The core of PoC lies in the fact that all of these processes rest upon **illusions that cannot be guaranteed**.
 
-***
-
-#### 2. What PoC Reveals
+### What PoC Reveals
 
 Through its operations, PoC brings three crucial insights into focus:
 
@@ -27,9 +25,7 @@ Through its operations, PoC brings three crucial insights into focus:
 
 PoC thus demonstrates that consciousness always operates under uncertainty and the constant threat of breakdown.
 
-***
-
-#### 3. Situating Self-Consciousness within PoC
+### Situating Self-Consciousness within PoC
 
 Within this framework, self-consciousness should not be treated as an external theme or given faculty. It is instead the **necessary consequence of the protocol itself**.
 
@@ -44,9 +40,7 @@ Here emerges the distinctive **structural paradox of PoC**:
 
 Self-consciousness arises precisely when this paradox becomes manifest.
 
-***
-
-#### 4. The Process of Emergence
+### The Process of Emergence
 
 The generation of self-consciousness can be described as follows:
 
@@ -58,17 +52,13 @@ The generation of self-consciousness can be described as follows:
 
 From this paradox emerges the form of “the self recognizing itself.”
 
-***
-
-#### 5. Strength of the Argument
+### Strength of the Argument
 
 * **External connections**: Whereas [Dennett](../plugins/dennett-plugin.md), [Sartre](../plugins/sartre-plugin.md), or [Hegel](../plugins/hegel-plugin.md) approached self-consciousness through ontology or epistemology, PoC formalizes it as an operational protocol. It absorbs their insights while advancing them into a new register.
 * **Internal consistency**: Like Instantiation and Loop, self-consciousness also rests upon unguarantability. It follows naturally from the very structure of PoC.
 * **Novelty**: Instead of describing self-consciousness as “re-reflection” or “repositioning,” PoC defines it as a **structural paradox: what is believed external is, in truth, only internal**. This avoids cliché and anchors the account firmly in the protocol’s own logic.
 
-***
-
-#### 6. Key Point
+### Key Point
 
 Self-consciousness is not a separate foundation outside PoC.\
 It is the **byproduct of the protocol** — the structural paradox that arises inevitably from Instantiation, Elicitation, and Loop.
