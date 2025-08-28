@@ -1,6 +1,6 @@
 # What Are Plugins?
 
-The Protocol of Consciousness (PoC) is deliberately minimal. It offers only a basic framework for describing how illusions of consciousness arise through [**Instantiation, Elicitation, and Loop**](../core/operations/). But precisely because it is so minimal, PoC is never meant to stand as a closed or self-sufficient system. Its strength lies in its openness: it must be connected, translated, and extended into other fields of thought and practice.
+The Protocol of Consciousness (PoC) is deliberately minimal. It offers only a basic framework for describing how illusions of consciousness arise through [**Instantiation, Elicitation, and Loop**](../protocol/operations/). But precisely because it is so minimal, PoC is never meant to stand as a closed or self-sufficient system. Its strength lies in its openness: it must be connected, translated, and extended into other fields of thought and practice.
 
 This is the role of **Plugins**.
 
