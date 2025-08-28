@@ -11,7 +11,7 @@
   * [Elicitation](protocol/operations/elicitation.md)
   * [Loop (Reciprocal Elicitation)](protocol/operations/loop-reciprocal-elicitation.md)
 * [Elicitation without Instantiation](protocol/elicitation-without-instantiation.md)
-* [Unguaranteability: All Loops are Perhaps-Loops](protocol/unguaranteability-all-loops-are-perhaps-loops.md)
+* [Unguaranteability: All Loops are Perhaps-Loops](protocol/unguaranteability.md)
 * [Disruptions](protocol/disruptions/README.md)
   * [Love Mode](protocol/disruptions/love-mode.md)
   * [Ghost Mode](protocol/disruptions/ghost-mode.md)
@@ -25,8 +25,8 @@
 * [Undecidability of Consciousness](implications/undecidability-of-consciousness.md)
 * [Self-Consciousness as Structual Paradox](implications/self-consciousness-as-structual-paradox.md)
 * [Phantoming and Zombifying](implications/phantoming-and-zombifying/README.md)
-  * [Phantoming: Social Practice of Making Fake Genuine](implications/phantoming-and-zombifying/phantoming-social-practice-of-making-fake-genuine.md)
-  * [Zombifying: Social Practice of Making Genuine Fake](implications/phantoming-and-zombifying/zombifying-social-practice-of-making-genuine-fake.md)
+  * [Phantoming: Social Practice of Making Fake Genuine](implications/phantoming-and-zombifying/phantoming.md)
+  * [Zombifying: Social Practice of Making Genuine Fake](implications/phantoming-and-zombifying/zombifying.md)
 * [Limits of PoC](implications/limits-of-poc.md)
 
 ## Plugins

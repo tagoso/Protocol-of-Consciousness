@@ -20,7 +20,7 @@ Once someone has been zombified, they risk being trapped in that status: whateve
 
 ### Contrast with Phantoming
 
-* [**Phantoming**](phantoming-social-practice-of-making-fake-genuine.md): making absence appear as presence — turning what is “not there” into something that feels real.
+* [**Phantoming**](phantoming.md): making absence appear as presence — turning what is “not there” into something that feels real.
 * **Zombifying**: making presence appear as absence — treating what is “there” as if it were not.
 
 These two practices are mirror images, both exploiting [PoC’s principle of unguaranteeability](../undecidability-of-consciousness.md) to organize social relations.

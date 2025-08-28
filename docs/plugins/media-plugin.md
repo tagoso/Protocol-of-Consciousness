@@ -21,7 +21,7 @@ This reveals the structural asymmetry of media:
 * **On the sender’s side**: Elicitation is broadcast outward, detached from any recognition of each receiver as a conscious subject.
 * **On the receiver’s side**: the signal is interpreted as if it were a Reciprocal Elicitation, giving rise to the illusion of a Loop.
 
-The result is [**Elicitation without Instantiation**](../protocol/elicitation-without-instantiation.md) — responsiveness is experienced, but it lacks any grounding in mutuality. In PoC terms, this is a form of [**Phantoming**](../implications/phantoming-and-zombifying/phantoming-social-practice-of-making-fake-genuine.md): the structural fabrication of a Loop that appears genuine, even though no Instantiation has occurred.
+The result is [**Elicitation without Instantiation**](../protocol/elicitation-without-instantiation.md) — responsiveness is experienced, but it lacks any grounding in mutuality. In PoC terms, this is a form of [**Phantoming**](../implications/phantoming-and-zombifying/phantoming.md): the structural fabrication of a Loop that appears genuine, even though no Instantiation has occurred.
 
 ### **Illusions and Their Force**
 

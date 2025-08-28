@@ -33,7 +33,7 @@ In these moments, Elicitation and [Reciprocal Elicitation](../protocol/operation
 
 #### **Formation of a Loop**
 
-Through these interactions, Instantiation, Elicitation, and Reciprocal Elicitation circulate to form a Loop between body and space. Whether one considers this a _Genuine_ dialogue with space or a _Fake Loop_ projected by the body, it is nonetheless subjectively experienced as real—demonstrating the core PoC principle that [all Loops are ultimately sustained by belief](../protocol/unguaranteability-all-loops-are-perhaps-loops.md), not objective guarantee. This experience also resonates with existing Modes: the [_Ghost Mode_](../protocol/disruptions/ghost-mode.md), where unverifiable responses are nonetheless lived as present, and the [_Mirror Mode_](../protocol/disruptions/mirror-mode.md), where the boundary between self and environment becomes blurred.
+Through these interactions, Instantiation, Elicitation, and Reciprocal Elicitation circulate to form a Loop between body and space. Whether one considers this a _Genuine_ dialogue with space or a _Fake Loop_ projected by the body, it is nonetheless subjectively experienced as real—demonstrating the core PoC principle that [all Loops are ultimately sustained by belief](../protocol/unguaranteability.md), not objective guarantee. This experience also resonates with existing Modes: the [_Ghost Mode_](../protocol/disruptions/ghost-mode.md), where unverifiable responses are nonetheless lived as present, and the [_Mirror Mode_](../protocol/disruptions/mirror-mode.md), where the boundary between self and environment becomes blurred.
 
 ### Extending the Protocol of Consciousness
 

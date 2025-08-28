@@ -2,7 +2,7 @@
 
 ### Fake Loop as Phenomenon
 
-In PoC, a [**Fake Loop**](../../protocol/unguaranteability-all-loops-are-perhaps-loops.md) is a loop that does not meet the full condition of reciprocity.\
+In PoC, a [**Fake Loop**](../../protocol/unguaranteability.md) is a loop that does not meet the full condition of reciprocity.\
 The subject feels a reply has come back, but in fact, no Instantiation ever occurred.
 
 * An idol says, _“Thank you, everyone”_ → each fan feels _“that was meant for me.”_

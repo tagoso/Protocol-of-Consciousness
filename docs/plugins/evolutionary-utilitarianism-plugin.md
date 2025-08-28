@@ -21,7 +21,7 @@ Consciousness in PoC is not a means toward reproductive success but a protocolic
 
 From a PoC perspective, morality emerges as part of the tension intrinsic to consciousness. To instantiate the other is to recognize them as conscious, and thus as morally standing. To refuse Instantiation is to deny this standing, opening the door to neglect, exploitation, or violence.
 
-In this way, **Elicitation and Loop are not morally neutral**: they carry within them the implicit recognition of the other’s worth. Failures of reciprocity — whether through non-returned Elicitation, collapse of a Loop, or outright [Protocol Violation](../implications/phantoming-and-zombifying/zombifying-social-practice-of-making-genuine-fake.md) — are not only disruptions of illusion but also acts with ethical weight.
+In this way, **Elicitation and Loop are not morally neutral**: they carry within them the implicit recognition of the other’s worth. Failures of reciprocity — whether through non-returned Elicitation, collapse of a Loop, or outright [Protocol Violation](../implications/phantoming-and-zombifying/zombifying.md) — are not only disruptions of illusion but also acts with ethical weight.
 
 ### **Summary**
 

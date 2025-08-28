@@ -32,7 +32,7 @@ _(See_ [_Ghost Mode_](ghost-mode.md)_)_
 
 In this pattern, an agent elicits toward the other, but without any genuine Instantiation of the other’s consciousness. _(Note:_ [_Instantiation_](../operations/instantiation.md) _is never directly observable, neither from a third party nor from the first person. Its presence or absence is always a matter of belief.)_
 
-This often appears in mass-addressed intimacy, such as influencers addressing fans as _“my boyfriend/girlfriend”_ or public figures simulating one-to-one recognition. It creates a one-way affective channel that [**mimics reciprocity**](../unguaranteability-all-loops-are-perhaps-loops.md) but does not generate a Genuine Loop. For convenience, we call this a _Fake Loop_, though in principle there is no way to precisely separate Fake from Genuine.
+This often appears in mass-addressed intimacy, such as influencers addressing fans as _“my boyfriend/girlfriend”_ or public figures simulating one-to-one recognition. It creates a one-way affective channel that [**mimics reciprocity**](../unguaranteability.md) but does not generate a Genuine Loop. For convenience, we call this a _Fake Loop_, though in principle there is no way to precisely separate Fake from Genuine.
 
 Here Ghost Mode demonstrates one of PoC’s central principles: **consciousness is never guaranteed, but only inferred through fragile illusions.** Every Loop relies on the assumption that the other has truly instantiated me, yet this assumption can never be verified. Thus even the most intimate recognition is haunted by the possibility that it is only Ghostly — that the other’s consciousness of me is merely imagined.
 
@@ -54,7 +54,7 @@ Mirror Mode exemplifies a paradoxical response to disruption: it neither denies 
 
 #### **Protocol Violation**
 
-_(See_ [_Zombifying_](../../implications/phantoming-and-zombifying/zombifying-social-practice-of-making-genuine-fake.md)_)_
+_(See_ [_Zombifying_](../../implications/phantoming-and-zombifying/zombifying.md)_)_
 
 An agent refuses to recognize the other as conscious, while still demanding to be treated as conscious themselves. This generates asymmetry, unfairness, and potential violence.
 

@@ -18,7 +18,7 @@ If the cat meows, the sound is interpreted as a response. A Loop appears to be e
 
 ### **The Perhaps-Loop**
 
-The cat’s meow may be nothing more than a conditioned reflex. Yet for the human participant, it feels like recognition. PoC stresses that this is not an exception but the rule: [**all Loops are Perhaps-Loops**](../protocol/unguaranteability-all-loops-are-perhaps-loops.md)**.** The distinction between “Genuine” and “Fake” is always retrospective and sustained only by belief in reciprocity.
+The cat’s meow may be nothing more than a conditioned reflex. Yet for the human participant, it feels like recognition. PoC stresses that this is not an exception but the rule: [**all Loops are Perhaps-Loops**](../protocol/unguaranteability.md)**.** The distinction between “Genuine” and “Fake” is always retrospective and sustained only by belief in reciprocity.
 
 ### Consciousness-in-Tension **as Ghost Mode**
 

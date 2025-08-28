@@ -49,7 +49,7 @@ When B responds with **e\_{B→A}**, a circulation of Elicitations forms. Each s
 * If both A and B sustain their inferences (**ĭ**), the Loop is experienced as “genuine.”
 * If only one side sustains the inference, the Loop is effectively “fake.”
 
-**The Loop requires no objective Instantiation (**[**All Loops are Perhaps-Loops**](../protocol/unguaranteability-all-loops-are-perhaps-loops.md)**).**\
+**The Loop requires no objective Instantiation (**[**All Loops are Perhaps-Loops**](../protocol/unguaranteability.md)**).**\
 Even if the other never instantiated me, as long as I infer it (ĭ) and act accordingly, the structure functions subjectively.
 
 This notation extends to [Modes](../protocol/disruptions/#modes-of-disruption):

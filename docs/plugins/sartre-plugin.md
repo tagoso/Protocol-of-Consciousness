@@ -26,6 +26,6 @@ All these cases demonstrate how Sartre’s “gaze of the Other” is re-enacted
 
 Within PoC, Sartre’s gaze resonates profoundly with the notion of [**Disruption**](../protocol/disruptions/). It sharply exposes the structural feature that reciprocal elicitation is always shadowed by uncertainty and that no Loop can ever be stably guaranteed.
 
-Moreover, Sartre’s concept of **bad faith (mauvaise foi)** finds an intriguing parallel in PoC’s notion of [**Phantoming**](../implications/phantoming-and-zombifying/phantoming-social-practice-of-making-fake-genuine.md)—the practice of fabricating a false Loop and presenting it as genuine. Whereas Sartre critiqued individual self-deception, PoC reframes this dynamic as a **social and structural mechanism** of illusion-generation.
+Moreover, Sartre’s concept of **bad faith (mauvaise foi)** finds an intriguing parallel in PoC’s notion of [**Phantoming**](../implications/phantoming-and-zombifying/phantoming.md)—the practice of fabricating a false Loop and presenting it as genuine. Whereas Sartre critiqued individual self-deception, PoC reframes this dynamic as a **social and structural mechanism** of illusion-generation.
 
 Thus, the Sartre Plugin translates existentialist insights into PoC’s structural vocabulary. The anxieties that Sartre described phenomenologically are formalized in PoC as a **procedural inevitability**, transforming them into an analytical tool applicable to a wide range of situations in contemporary society.

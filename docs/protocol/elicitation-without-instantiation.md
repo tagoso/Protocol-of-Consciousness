@@ -4,7 +4,7 @@
 
 In PoC, **Elicitation without Instantiation** refers to situations where an Elicitation is issued, or interpreted as a response, even though no actual [Instantiation](operations/instantiation.md) occurs on the other’s side.
 
-Crucially, this is not an exceptional “failure” of the protocol but a structural condition inherent to it. Because every Loop is, at its core, a [**Perhaps-Loop**](unguaranteability-all-loops-are-perhaps-loops.md), the possibility that no Instantiation has taken place can never be excluded.
+Crucially, this is not an exceptional “failure” of the protocol but a structural condition inherent to it. Because every Loop is, at its core, a [**Perhaps-Loop**](unguaranteability.md), the possibility that no Instantiation has taken place can never be excluded.
 
 ### Typical Occurrences
 
@@ -17,9 +17,9 @@ Crucially, this is not an exceptional “failure” of the protocol but a struct
 
 ### Relation to Social Practices
 
-* [**Phantoming**](../implications/phantoming-and-zombifying/phantoming-social-practice-of-making-fake-genuine.md)\
+* [**Phantoming**](../implications/phantoming-and-zombifying/phantoming.md)\
   The practice of fabricating a Loop as if genuine institutionalizes Elicitation without Instantiation at the social level.
-* [**Zombifying**](../implications/phantoming-and-zombifying/zombifying-social-practice-of-making-genuine-fake.md)\
+* [**Zombifying**](../implications/phantoming-and-zombifying/zombifying.md)\
   Conversely, treating the other as absent — nullifying their potential Instantiation — represents the negative mirror of the same condition.
 
 ### Theoretical Implications
