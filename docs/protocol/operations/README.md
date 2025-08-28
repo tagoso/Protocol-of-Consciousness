@@ -32,7 +32,7 @@ In this way, consciousness is treated not as an essence residing in the self, bu
 * [**Loop**](loop-reciprocal-elicitation.md)\
   Reciprocal Elicitations stabilize through circulation.\
   → The boundary between subject and object becomes blurred.\
-  → Through assimilation, [the illusion of self-consciousness](../../implications/self-consciousness-as-structual-paradox.md) reinforces itself.
+  → Through assimilation, [the illusion of self-consciousness](../../../gitbook-sync/implications/self-consciousness-as-structual-paradox.md) reinforces itself.
 
 ***
 
@@ -43,4 +43,4 @@ In this way, consciousness is treated not as an essence residing in the self, bu
 * _e\_{B→A}_ = Reciprocal Elicitation (when returned by B)
 * **Loop** = Mutual Elicitations (_e\_{A→B}_ & _e\_{B→A}_) establishing responsiveness
 
-_(For extended notation and variants, see_ [Notation for Recalling the PoC Model](../../appendix/notation-for-recalling-poc-model.md)_._
+_(For extended notation and variants, see_ [Notation for Recalling the PoC Model](../../../gitbook-sync/appendix/notation-for-recalling-poc-model.md)_._

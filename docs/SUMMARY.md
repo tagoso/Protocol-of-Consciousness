@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Declaration](README.md)
-* [Abstract](abstract.md)
+* [Abstract](../gitbook-sync/abstract.md)
 
 ## Protocol
 
@@ -22,28 +22,28 @@
 
 ## Implications
 
-* [Social Practices: Phantoming and Zombifying](implications/social-practices-phantoming-and-zombifying/README.md)
-  * [Phantoming: Social Practice of Making Fake Genuine](implications/social-practices-phantoming-and-zombifying/phantoming-social-practice-of-making-fake-genuine.md)
-  * [Zombifying: Social Practice of Making Genuine Fake](implications/social-practices-phantoming-and-zombifying/zombifying-social-practice-of-making-genuine-fake.md)
-* [Undecidability of Consciousness](implications/undecidability-of-consciousness.md)
-* [Self-Consciousness as Structual Paradox](implications/self-consciousness-as-structual-paradox.md)
-* [Limits of PoC](implications/limits-of-poc.md)
+* [Social Practices: Phantoming and Zombifying](../gitbook-sync/implications/social-practices-phantoming-and-zombifying/README.md)
+  * [Phantoming: Social Practice of Making Fake Genuine](../gitbook-sync/implications/social-practices-phantoming-and-zombifying/phantoming-social-practice-of-making-fake-genuine.md)
+  * [Zombifying: Social Practice of Making Genuine Fake](../gitbook-sync/implications/social-practices-phantoming-and-zombifying/zombifying-social-practice-of-making-genuine-fake.md)
+* [Undecidability of Consciousness](../gitbook-sync/implications/undecidability-of-consciousness.md)
+* [Self-Consciousness as Structual Paradox](../gitbook-sync/implications/self-consciousness-as-structual-paradox.md)
+* [Limits of PoC](../gitbook-sync/implications/limits-of-poc.md)
 
 ## Plugins
 
-* [What Are Plugins?](plugins/what-are-plugins.md)
-* [Dennett Plugin](plugins/dennett-plugin.md)
-* [Hegel Plugin](plugins/hegel-plugin.md)
-* [Sartre Plugin](plugins/sartre-plugin.md)
-* [Arakawa Plugin](plugins/arakawa-plugin.md)
-* [Animal Plugin](plugins/animal-plugin.md)
-* [P-Zombie Plugin](plugins/p-zombie-plugin.md)
-* [Qualia Plugin](plugins/qualia-plugin.md)
-* [AI Plugin](plugins/ai-plugin.md)
-* [Evolutionary Utilitarianism Plugin](plugins/evolutionary-utilitarianism-plugin.md)
-* [Media Plugin](plugins/media-plugin.md)
-* [God Plugin](plugins/god-plugin.md)
+* [What Are Plugins?](../gitbook-sync/plugins/what-are-plugins.md)
+* [Dennett Plugin](../gitbook-sync/plugins/dennett-plugin.md)
+* [Hegel Plugin](../gitbook-sync/plugins/hegel-plugin.md)
+* [Sartre Plugin](../gitbook-sync/plugins/sartre-plugin.md)
+* [Arakawa Plugin](../gitbook-sync/plugins/arakawa-plugin.md)
+* [Animal Plugin](../gitbook-sync/plugins/animal-plugin.md)
+* [P-Zombie Plugin](../gitbook-sync/plugins/p-zombie-plugin.md)
+* [Qualia Plugin](../gitbook-sync/plugins/qualia-plugin.md)
+* [AI Plugin](../gitbook-sync/plugins/ai-plugin.md)
+* [Evolutionary Utilitarianism Plugin](../gitbook-sync/plugins/evolutionary-utilitarianism-plugin.md)
+* [Media Plugin](../gitbook-sync/plugins/media-plugin.md)
+* [God Plugin](../gitbook-sync/plugins/god-plugin.md)
 
 ## Appendix
 
-* [Notation for Recalling PoC Model](appendix/notation-for-recalling-poc-model.md)
+* [Notation for Recalling PoC Model](../gitbook-sync/appendix/notation-for-recalling-poc-model.md)

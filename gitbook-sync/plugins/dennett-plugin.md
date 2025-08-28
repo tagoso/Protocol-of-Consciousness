@@ -13,14 +13,14 @@ PoC and Daniel Dennett’s _Intentional Stance_ resonate at first glance. Both f
 #### 1. Scope of Application
 
 * **Dennett**: The intentional stance is primarily applied to entities that display complex, adaptive behavior — humans, animals, or sophisticated machines.
-* **PoC**: [Instantiation](../protocol/operations/instantiation.md) is not restricted to such systems. One may instantiate consciousness in a cat, an anime character, a curtain, or even the dead. What matters is not ontological status or behavioral complexity, but the very act of positing the other as conscious.
+* **PoC**: [Instantiation](../../docs/protocol/operations/instantiation.md) is not restricted to such systems. One may instantiate consciousness in a cat, an anime character, a curtain, or even the dead. What matters is not ontological status or behavioral complexity, but the very act of positing the other as conscious.
 
 ***
 
 #### 2. Consciousness as Tension
 
 * **Dennett**: The intentional stance is a _stable predictive strategy_ for interpreting behavior.
-* **PoC**: Instantiation is always fragile. [Elicitation](../protocol/operations/elicitation.md) may fail to be returned, and even established [Loops](../protocol/operations/loop-reciprocal-elicitation.md) remain vulnerable to breakdown. Consciousness is experienced as _tension_ — vivid precisely because it can collapse at any moment.
+* **PoC**: Instantiation is always fragile. [Elicitation](../../docs/protocol/operations/elicitation.md) may fail to be returned, and even established [Loops](../../docs/protocol/operations/loop-reciprocal-elicitation.md) remain vulnerable to breakdown. Consciousness is experienced as _tension_ — vivid precisely because it can collapse at any moment.
 
 ***
 
@@ -34,7 +34,7 @@ PoC and Daniel Dennett’s _Intentional Stance_ resonate at first glance. Both f
 #### 4. Meta-stance
 
 * **Dennett**: “Everyone thinks they are an expert on consciousness — but I am the true expert.” Authority is centralized.
-* **PoC**: [“Everyone is an expert on consciousness.”](../) Expertise is democratized, grounded in lived experience rather than reserved for specialists.
+* **PoC**: [“Everyone is an expert on consciousness.”](../../docs/) Expertise is democratized, grounded in lived experience rather than reserved for specialists.
 
 ***
 

@@ -2,7 +2,7 @@
 
 #### **Definition**
 
-Mirror Mode is a mode in which Elicitation is not directed outward toward another, but is turned inward toward oneself. The self constructs “the position of the other” within itself, generating an internal [Instantiation](../operations/instantiation.md) _i\_A(A)_. In this way, the framework of Instantiation–[Elicitation](../operations/elicitation.md)–[Loop](../operations/loop-reciprocal-elicitation.md) is not abolished but imported into the inner domain. Mirror Mode is not itself self-consciousness, but the structural condition through which [the paradox of self-consciousness becomes possible](../../implications/self-consciousness-as-structual-paradox.md).
+Mirror Mode is a mode in which Elicitation is not directed outward toward another, but is turned inward toward oneself. The self constructs “the position of the other” within itself, generating an internal [Instantiation](../operations/instantiation.md) _i\_A(A)_. In this way, the framework of Instantiation–[Elicitation](../operations/elicitation.md)–[Loop](../operations/loop-reciprocal-elicitation.md) is not abolished but imported into the inner domain. Mirror Mode is not itself self-consciousness, but the structural condition through which [the paradox of self-consciousness becomes possible](../../../gitbook-sync/implications/self-consciousness-as-structual-paradox.md).
 
 #### **Features**
 

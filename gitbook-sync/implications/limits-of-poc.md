@@ -9,7 +9,7 @@ Through these lenses, processes of consciousness that once seemed vague or ineff
 
 #### 2. What Escapes the Protocol
 
-PoC provides a structural framework — [**Instantiation, Elicitation, Loop**](../protocol/operations/) — through which many phenomena of consciousness can be translated and analyzed. Yet not every emotion or experience can be reduced to this frame.
+PoC provides a structural framework — [**Instantiation, Elicitation, Loop**](../../docs/protocol/operations/) — through which many phenomena of consciousness can be translated and analyzed. Yet not every emotion or experience can be reduced to this frame.
 
 Tears before a work of art, the warmth of embracing a loved one, awe before a mountain or sunset — these contain dimensions of excess that cannot be neatly captured. PoC does not deny such moments, but names them as what remains **outside the protocol**: the surplus that resists formalization.
 

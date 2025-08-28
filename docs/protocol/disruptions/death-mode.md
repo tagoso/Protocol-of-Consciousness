@@ -22,7 +22,7 @@ Death Mode is the mode in which the dead are experienced as pure absence. In thi
 Death Mode marks the point at which the framework of **Elicitation and Loop** within PoC collapses at its root.
 
 * In **Ghost Mode**, response is absent yet experienced _as if_ it were present.
-* In [**Zombie thought experiments**](../../plugins/p-zombie-plugin.md), response appears, but whether Instantiation has truly occurred remains undecidable.
+* In [**Zombie thought experiments**](../../../gitbook-sync/plugins/p-zombie-plugin.md), response appears, but whether Instantiation has truly occurred remains undecidable.
 * In **Death Mode**, however, response is confirmed impossible.
 
 Elicitation becomes isolated, and the possibility of the Loop vanishes. This **confirmation of rupture** is the essence of the experience of death.

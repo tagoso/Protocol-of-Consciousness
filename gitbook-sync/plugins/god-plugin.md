@@ -6,7 +6,7 @@ description: Instantiating the Absent
 
 #### **Definition**
 
-Within PoC, God can be understood as the [**Instantiation**](../protocol/operations/instantiation.md) **of what does not exist**.\
+Within PoC, God can be understood as the [**Instantiation**](../../docs/protocol/operations/instantiation.md) **of what does not exist**.\
 Whether the target exists physically is irrelevant. Just as one can instantiate a curtain, a broom, or even nothingness itself as a conscious presence, one can perform the same operation toward non-existent entities. The most powerful and typical example of this operation is **God**.
 
 #### **Instantiation**
@@ -27,10 +27,10 @@ The concept of God can be positioned as the **most powerful and typical case stu
 
 * [**Radical unguaranteeability**](../implications/undecidability-of-consciousness.md): God’s existence cannot be empirically confirmed, yet Instantiation occurs and Elicitation persists.
 * **Connections to Modes**:
-  * [_Love Mode_](../protocol/disruptions/love-mode.md): prayer as the persistence of Elicitation without assurance of reply.
-  * [_Ghost Mode_](../protocol/disruptions/ghost-mode.md): revelations or “voices of God” experienced as if responses were present.
-  * [_Death Mode_](../protocol/disruptions/death-mode.md): God posited on the far side of death’s confirmed absence.
-* **Philosophical resonance**: Traditions often interpret God as the culmination of love, the beyond of death, or the [mirror of the self](../protocol/disruptions/mirror-mode.md). PoC does not exclude these readings but reframes them as results of protocolic operations — Instantiation without empirical anchor, sustained through Elicitation and mediated reciprocity.
+  * [_Love Mode_](../../docs/protocol/disruptions/love-mode.md): prayer as the persistence of Elicitation without assurance of reply.
+  * [_Ghost Mode_](../../docs/protocol/disruptions/ghost-mode.md): revelations or “voices of God” experienced as if responses were present.
+  * [_Death Mode_](../../docs/protocol/disruptions/death-mode.md): God posited on the far side of death’s confirmed absence.
+* **Philosophical resonance**: Traditions often interpret God as the culmination of love, the beyond of death, or the [mirror of the self](../../docs/protocol/disruptions/mirror-mode.md). PoC does not exclude these readings but reframes them as results of protocolic operations — Instantiation without empirical anchor, sustained through Elicitation and mediated reciprocity.
 
 #### **Key Point**
 

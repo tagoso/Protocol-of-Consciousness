@@ -2,7 +2,7 @@
 
 #### 1. Fake Loop as Phenomenon
 
-In PoC, a [**Fake Loop**](../../protocol/unguaranteability-all-loops-are-perhaps-loops.md) is a loop that does not meet the full condition of reciprocity.\
+In PoC, a [**Fake Loop**](../../../docs/protocol/unguaranteability-all-loops-are-perhaps-loops.md) is a loop that does not meet the full condition of reciprocity.\
 The subject feels a reply has come back, but in fact, no Instantiation ever occurred.
 
 * An idol says, _“Thank you, everyone”_ → each fan feels _“that was meant for me.”_
@@ -16,8 +16,8 @@ Fake Loops are the everyday face of [PoC’s principle of unguaranteeability](..
 
 **Phantoming** names the cultural and social practice of making Fake Loops look Genuine, or fabricating them afterward as if they had been genuine all along.
 
-* **Disguise**: making a mass-addressed [Elicitation](../../protocol/operations/elicitation.md) appear like a personal one.
-* **Retroactive fabrication**: later saying, _“I was really thinking of you,”_ simulating a past [Instantiation](../../protocol/operations/instantiation.md).
+* **Disguise**: making a mass-addressed [Elicitation](../../../docs/protocol/operations/elicitation.md) appear like a personal one.
+* **Retroactive fabrication**: later saying, _“I was really thinking of you,”_ simulating a past [Instantiation](../../../docs/protocol/operations/instantiation.md).
 
 Examples:
 
@@ -35,7 +35,7 @@ Phantoming works because it exploits PoC’s basic principles:
 
 * **Instantiation is invisible**: no one can check another’s inner state.
 * **Elicitation is reproducible**: patterns and scripts can mass-produce the illusion of reciprocity.
-* [**Loops**](../../protocol/operations/loop-reciprocal-elicitation.md) **exist in belief**: if the receiver feels it is Genuine, it functions as such — even if objectively absent.
+* [**Loops**](../../../docs/protocol/operations/loop-reciprocal-elicitation.md) **exist in belief**: if the receiver feels it is Genuine, it functions as such — even if objectively absent.
 
 Genuine and Fake are never fixed categories; they are blurred, rewritten, and constantly contested.
 

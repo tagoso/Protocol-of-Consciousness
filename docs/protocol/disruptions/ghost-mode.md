@@ -2,7 +2,7 @@
 
 #### **Definition**
 
-Ghost Mode is a mode in which the other is experienced _as if_ they were [Instantiating](../operations/instantiation.md) **i\_B(A)** and returning a [**Reciprocal Elicitation**](../operations/loop-reciprocal-elicitation.md) **(e\_{B→A})**. In reality, [there is no way to confirm that such an Instantiation has occurred, nor to determine whether a return is a Genuine Reciprocal Elicitation or a mere illusion](../unguaranteability-all-loops-are-perhaps-loops.md). Nevertheless, the subject experiences the situation as though the Loop were functioning. In this sense, Ghost Mode resonates with [the philosophical problem of the zombie](../../plugins/p-zombie-plugin.md): even if the other were only a behavioral replica without inner consciousness, the subject would still live the relation _as if_ Instantiation and Reciprocity were taking place.
+Ghost Mode is a mode in which the other is experienced _as if_ they were [Instantiating](../operations/instantiation.md) **i\_B(A)** and returning a [**Reciprocal Elicitation**](../operations/loop-reciprocal-elicitation.md) **(e\_{B→A})**. In reality, [there is no way to confirm that such an Instantiation has occurred, nor to determine whether a return is a Genuine Reciprocal Elicitation or a mere illusion](../unguaranteability-all-loops-are-perhaps-loops.md). Nevertheless, the subject experiences the situation as though the Loop were functioning. In this sense, Ghost Mode resonates with [the philosophical problem of the zombie](../../../gitbook-sync/plugins/p-zombie-plugin.md): even if the other were only a behavioral replica without inner consciousness, the subject would still live the relation _as if_ Instantiation and Reciprocity were taking place.
 
 #### **Features**
 
@@ -13,7 +13,7 @@ Ghost Mode is a mode in which the other is experienced _as if_ they were [Instan
 
 #### **Examples**
 
-* [_Cheering for idols or athletes_](../../plugins/media-plugin.md): Even without direct reply, the subject feels as though their voice reaches the other and is returned.
+* [_Cheering for idols or athletes_](../../../gitbook-sync/plugins/media-plugin.md): Even without direct reply, the subject feels as though their voice reaches the other and is returned.
 * _Phantom presences in online space_: Addressing anonymous participants and experiencing replies as if they came from a particular other.
 * _A child’s lost balloon_: A girl cries when she accidentally releases her balloon at an amusement park. Without the experience to know otherwise, she feels as if the balloon might speak back.
 * _Spiritual encounters_: Experiencing the dead as appearing or speaking. No Reciprocity can be verified, yet for the subject it is lived as a functioning Loop.
