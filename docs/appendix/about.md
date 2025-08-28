@@ -2,9 +2,9 @@
 
 The _Protocol of Consciousness_ is available on two sites. Both contain the same content:
 
-[**protocolofconsciousness.org**](https://protocolofconsciousness.org/?utm_source=chatgpt.com)**:** Main site, hosted on GitHub Pages with a custom domain.
+[**protocolofconsciousness.org**](https://protocolofconsciousness.org/)**:** Main site, hosted on GitHub Pages with a custom domain.
 
-[**the-protocol-of-consciousness.gitbook.io/poc**](https://the-protocol-of-consciousness.gitbook.io/poc/?utm_source=chatgpt.com)**:** Backup site, hosted on GitBook.
+[**the-protocol-of-consciousness.gitbook.io/poc**](https://the-protocol-of-consciousness.gitbook.io/poc/)**:** Backup site, hosted on GitBook.
 
 ***
 
