@@ -6,7 +6,7 @@ The Protocol of Consciousness (PoC) unfolds through four basic elements:
 
 * [**Instantiation**](../protocol/operations/instantiation.md): The act of assuming the other as a conscious being.
 * [**Elicitation**](../protocol/operations/elicitation.md): The active bid, “let me be instantiated within you.”
-* [**Reciprocal Elicitation**](../protocol/operations/loop-reciprocal-elicitation.md): The return of that bid from the other.
+* **Reciprocal Elicitation**: The return of that bid from the other.
 * [**Loop**](../protocol/operations/loop-reciprocal-elicitation.md): The state in which both parties’ Elicitations are mutually believed, generating reciprocity.
 
 The core of PoC lies in the fact that all of these processes rest upon **illusions that cannot be guaranteed**.
