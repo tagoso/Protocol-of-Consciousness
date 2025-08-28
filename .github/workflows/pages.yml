@@ -21,6 +21,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+      - name: Install system deps for WeasyPrint
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libcairo2 \
+            libpango-1.0-0 \
+            libpangocairo-1.0-0 \
+            libgdk-pixbuf2.0-0 \
+            libffi-dev \
+            shared-mime-info
+
       - run: pip install -r requirements.txt
 
       # Generate mkdocs.gen.yml from GitBook SUMMARY.md (headings=groups, bullets=items)
