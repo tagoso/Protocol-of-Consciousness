@@ -13,11 +13,11 @@
 
 #### Step-by-Step Development (PoC Vocabulary Version)
 
-① [**Instantiation**](../core/operations/instantiation.md) **(Other-in-A)**\
+① [**Instantiation**](../protocol/operations/instantiation.md) **(Other-in-A)**\
 Within A, **i\_A(B)** arises.\
 → A experiences: “B seems to have consciousness” (the emergence of the illusion of another mind).
 
-② [**Elicitation**](../core/operations/elicitation.md) **(A→B)**\
+② [**Elicitation**](../protocol/operations/elicitation.md) **(A→B)**\
 A performs **e\_{A→B}**, a bid that “B should instantiate me.”\
 → This may take the form of a gesture, a greeting, or calling the other’s name.
 
@@ -31,7 +31,7 @@ A re-imports **ĭ\_A\[B(A)]** as if it were an object inside A itself.\
 → A paradox arises: what should belong inside B is relocated into A, reshaping A’s relation both to itself and to the other.\
 (This structural paradox is [the basis of self-consciousness](../implications/self-consciousness-as-structual-paradox.md).)
 
-⑤ [**Loop (Reciprocal Elicitation)**](../core/operations/loop-reciprocal-elicitation.md)\
+⑤ [**Loop (Reciprocal Elicitation)**](../protocol/operations/loop-reciprocal-elicitation.md)\
 When B responds with **e\_{B→A}**, a circulation of Elicitations forms.\
 Each side acts on the belief that “the other is hosting me inside them.”\
 → Through this circulation, the illusion stabilizes: the **Loop**.
@@ -41,13 +41,13 @@ Each side acts on the belief that “the other is hosting me inside them.”\
 #### Key Notes
 
 * **Feedback (Reciprocal) Elicitation** = a returned Elicitation from B to A (**e\_{B→A}**).
-* [**Genuine vs. Fake**](../core/elicitation-without-instantiation.md): It cannot be objectively guaranteed that **i\_B(A)** has occurred.
+* [**Genuine vs. Fake**](../protocol/elicitation-without-instantiation.md): It cannot be objectively guaranteed that **i\_B(A)** has occurred.
   * If both A and B sustain their inferences (**ĭ**), the Loop is experienced as “genuine.”
   * If only one side sustains the inference, the Loop is effectively “fake.”
-* **The Loop requires no objective Instantiation (**[**All Loops are Perhaps-Loops**](../core/unguaranteability-all-loops-are-perhaps-loops.md)**).**\
+* **The Loop requires no objective Instantiation (**[**All Loops are Perhaps-Loops**](../protocol/unguaranteability-all-loops-are-perhaps-loops.md)**).**\
   Even if the other never instantiated me, as long as I infer it (ĭ) and act accordingly, the structure functions subjectively.
-* This notation extends to [Modes](../core/disruptions/#modes-of-disruption):
-  * [**Love**](../core/disruptions/love-mode.md) = sustained Elicitation without feedback.
-  * [**Ghost**](../core/disruptions/ghost-mode.md) = impossible feedback is still inferred “as if.”
-  * [**Death**](../core/disruptions/death-mode.md) = feedback is confirmed impossible.
-  * [**Mirror**](../core/disruptions/mirror-mode.md) = i\_A(A): the self instantiates itself via an internal Loop.
+* This notation extends to [Modes](../protocol/disruptions/#modes-of-disruption):
+  * [**Love**](../protocol/disruptions/love-mode.md) = sustained Elicitation without feedback.
+  * [**Ghost**](../protocol/disruptions/ghost-mode.md) = impossible feedback is still inferred “as if.”
+  * [**Death**](../protocol/disruptions/death-mode.md) = feedback is confirmed impossible.
+  * [**Mirror**](../protocol/disruptions/mirror-mode.md) = i\_A(A): the self instantiates itself via an internal Loop.

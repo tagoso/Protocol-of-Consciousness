@@ -8,10 +8,10 @@ description: 'Structural Consequences: The Internal Consequence of PoC'
 
 The Protocol of Consciousness (PoC) unfolds through four basic elements:
 
-* [**Instantiation**](../core/operations/instantiation.md): The act of assuming the other as a conscious being.
-* [**Elicitation**](../core/operations/elicitation.md): The active bid, “let me be instantiated within you.”
-* [**Reciprocal Elicitation**](../core/operations/loop-reciprocal-elicitation.md): The return of that bid from the other.
-* [**Loop**](../core/operations/loop-reciprocal-elicitation.md): The state in which both parties’ Elicitations are mutually believed, generating reciprocity.
+* [**Instantiation**](../protocol/operations/instantiation.md): The act of assuming the other as a conscious being.
+* [**Elicitation**](../protocol/operations/elicitation.md): The active bid, “let me be instantiated within you.”
+* [**Reciprocal Elicitation**](../protocol/operations/loop-reciprocal-elicitation.md): The return of that bid from the other.
+* [**Loop**](../protocol/operations/loop-reciprocal-elicitation.md): The state in which both parties’ Elicitations are mutually believed, generating reciprocity.
 
 The core of PoC lies in the fact that all of these processes rest upon **illusions that cannot be guaranteed**.
 
@@ -23,7 +23,7 @@ Through its operations, PoC brings three crucial insights into focus:
 
 * [**Unguarantability**](undecidability-of-consciousness.md): Neither Instantiation nor Reciprocal Elicitation can be observed. Both rest entirely on belief.
 * **Fragility**: The Loop is always at risk of collapse; its persistence is never secured.
-* [**Modes**](../core/disruptions/#disruptive-modes): Love, Ghost, Death, and Mirror represent lived figures of this fragility in social and emotional life.
+* [**Modes**](../protocol/disruptions/#disruptive-modes): Love, Ghost, Death, and Mirror represent lived figures of this fragility in social and emotional life.
 
 PoC thus demonstrates that consciousness always operates under uncertainty and the constant threat of breakdown.
 
@@ -33,7 +33,7 @@ PoC thus demonstrates that consciousness always operates under uncertainty and t
 
 Within this framework, self-consciousness should not be treated as an external theme or given faculty. It is instead the **necessary consequence of the protocol itself**.
 
-The key lies in [**Mirror Mode**](../core/disruptions/mirror-mode.md). In Mirror Mode, the form of the Loop is internalized: the self constructs “the position of the other” within itself. This generates the assumption, “there is a version of me inside the other.”
+The key lies in [**Mirror Mode**](../protocol/disruptions/mirror-mode.md). In Mirror Mode, the form of the Loop is internalized: the self constructs “the position of the other” within itself. This generates the assumption, “there is a version of me inside the other.”
 
 Yet this assumption is paradoxical. The “me-in-the-other” is never verifiable outside. In truth, it has only ever existed inside myself.
 

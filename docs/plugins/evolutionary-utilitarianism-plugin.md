@@ -11,7 +11,7 @@ Evolutionary utilitarianism explains morality and altruism as adaptive utilities
 Judgments of good and evil, happiness and suffering, are not abstract ideals but evolutionary reinforcements that stabilized social cooperation and group survival.\
 As Richard Dawkins argued in _The Selfish Gene_, even altruism can be read as a strategy of self-preservation at the genetic level.
 
-PoC aligns with this framework at a key point. In PoC, the [**Loop**](../core/operations/loop-reciprocal-elicitation.md) — established when [Elicitations](../core/operations/elicitation.md) are reciprocated and mutually believed — enables trust, cooperation, and coordination. To recognize one another as conscious is to make possible a fragile but functional basis for sociality. This resonates with the evolutionary view: Loops that stabilized recognition increased individual survival chances and strengthened group cohesion.
+PoC aligns with this framework at a key point. In PoC, the [**Loop**](../protocol/operations/loop-reciprocal-elicitation.md) — established when [Elicitations](../protocol/operations/elicitation.md) are reciprocated and mutually believed — enables trust, cooperation, and coordination. To recognize one another as conscious is to make possible a fragile but functional basis for sociality. This resonates with the evolutionary view: Loops that stabilized recognition increased individual survival chances and strengthened group cohesion.
 
 #### **Points of Difference**
 
@@ -19,7 +19,7 @@ Yet PoC diverges sharply from evolutionary utilitarianism in scope and emphasis.
 
 PoC, by contrast, is not grounded in utility. It asks instead: **why does the illusion of consciousness arise at all?**
 
-Consciousness in PoC is not a means toward reproductive success but a protocolic operation: [**Instantiation**](../core/operations/instantiation.md) of the other, **Elicitation** of oneself within them, the fragile stabilization of a **Loop**. Whether this confers utility or collapses into dysfunction is secondary. For PoC, the priority lies in describing how these illusions of consciousness appear, stabilize, and break down.
+Consciousness in PoC is not a means toward reproductive success but a protocolic operation: [**Instantiation**](../protocol/operations/instantiation.md) of the other, **Elicitation** of oneself within them, the fragile stabilization of a **Loop**. Whether this confers utility or collapses into dysfunction is secondary. For PoC, the priority lies in describing how these illusions of consciousness appear, stabilize, and break down.
 
 #### **Morality as Tension**
 
