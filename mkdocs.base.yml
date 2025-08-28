@@ -3,6 +3,7 @@ theme:
   name: material
   features:
     - navigation.footer   # ← 前後カード
+    - navigation.indexes
 plugins:
   - search
   - git-revision-date-localized:
