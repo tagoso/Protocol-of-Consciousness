@@ -34,7 +34,7 @@ PoC and Daniel Dennett’s _Intentional Stance_ resonate at first glance. Both f
 #### 4. Meta-stance
 
 * **Dennett**: “Everyone thinks they are an expert on consciousness — but I am the true expert.” Authority is centralized.
-* **PoC**: [“Everyone is an expert on consciousness.”](../) Expertise is democratized, grounded in lived experience rather than reserved for specialists.
+* **PoC**: [“Everyone is an expert on consciousness.”](../../docs/) Expertise is democratized, grounded in lived experience rather than reserved for specialists.
 
 ***
 
