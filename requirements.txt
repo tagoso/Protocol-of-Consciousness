@@ -2,3 +2,4 @@ mkdocs
 mkdocs-material
 pyyaml
 mkdocs-git-revision-date-localized-plugin
+mkdocs-print-site-plugin
