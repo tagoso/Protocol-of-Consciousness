@@ -20,7 +20,7 @@ jobs:
           python-version: '3.x'
       - run: pip install -r requirements.txt
 
-      # SUMMARY.md -> nav生成（GitBookの見出し=Groupをセクション化、*/- 箇条書き&インデント対応）
+      # SUMMARY.md -> nav生成（見出し=Group セクション化、*/- 箇条書き&インデント対応）
       - name: Generate mkdocs.gen.yml from GitBook SUMMARY.md
         run: |
           set -e
@@ -57,12 +57,10 @@ jobs:
           parsed_any  = False
 
           def collapse_once():
-            """ 下層リストを1段上の最後の要素の子に畳み込む """
-            nonlocal stack
+            """下層リストを1段上の最後の要素の子に畳み込む"""
             if len(stack) <= 1 or not stack[-2]:
               return
             children = stack.pop()
-            # 1つ上の最後の要素に子として付ける
             last = stack[-1][-1]
             k = next(iter(last))
             v = last[k]
