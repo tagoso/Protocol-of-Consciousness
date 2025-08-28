@@ -25,8 +25,8 @@ Thus, all Modes are nothing but modalities of responding to **Consciousness as T
 
 #### 3. Relation to Other Theoretical Concepts
 
-* [**Undecidability**](../../gitbook-sync/implications/undecidability-of-consciousness.md): the logical constraint that whether Instantiation or Reciprocal Elicitation has truly occurred can never be decided in principle.
-* [**Structural Paradox**](../../gitbook-sync/implications/self-consciousness-as-structual-paradox.md): the structure by which the “me-in-the-other,” which exists only inside myself, is nonetheless believed to exist outside.
+* [**Undecidability**](../implications/undecidability-of-consciousness.md): the logical constraint that whether Instantiation or Reciprocal Elicitation has truly occurred can never be decided in principle.
+* [**Structural Paradox**](../implications/self-consciousness-as-structual-paradox.md): the structure by which the “me-in-the-other,” which exists only inside myself, is nonetheless believed to exist outside.
 * **Tension**: the experiential modality in which such constraints and paradoxes are lived — the felt condition of sustaining relations amid uncertainty.
 
 ***

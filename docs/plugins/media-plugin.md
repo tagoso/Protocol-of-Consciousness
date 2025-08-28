@@ -6,11 +6,11 @@ description: Simulated Responsiveness
 
 #### **Definition**
 
-In PoC, a Loop arises when Elicitations are reciprocated and each side assumes that “my consciousness has been instantiated within the other.” Contemporary media, however, provides mechanisms for **simulating this responsiveness without requiring mutual** [**Instantiation**](../core-protocol/operations/instantiation.md).
+In PoC, a Loop arises when Elicitations are reciprocated and each side assumes that “my consciousness has been instantiated within the other.” Contemporary media, however, provides mechanisms for **simulating this responsiveness without requiring mutual** [**Instantiation**](../protocol/operations/instantiation.md).
 
 #### **The Simulation of Responsiveness**
 
-Media functions as an apparatus designed to [**elicit**](../core-protocol/operations/elicitation.md) responses from its users.
+Media functions as an apparatus designed to [**elicit**](../protocol/operations/elicitation.md) responses from its users.
 
 * An influencer speaks as if addressing “only you.”
 * An algorithm delivers a notification at the “perfect moment.”
@@ -25,7 +25,7 @@ This reveals the structural asymmetry of media:
 * **On the sender’s side**: Elicitation is broadcast outward, detached from any recognition of each receiver as a conscious subject.
 * **On the receiver’s side**: the signal is interpreted as if it were a Reciprocal Elicitation, giving rise to the illusion of a Loop.
 
-The result is [**Elicitation without Instantiation**](../core-protocol/elicitation-without-instantiation.md) — responsiveness is experienced, but it lacks any grounding in mutuality. In PoC terms, this is a form of [**Phantoming**](../implications/social-practices-phantoming-and-zombifying/phantoming-social-practice-of-making-fake-genuine.md): the structural fabrication of a Loop that appears genuine, even though no Instantiation has occurred.
+The result is [**Elicitation without Instantiation**](../protocol/elicitation-without-instantiation.md) — responsiveness is experienced, but it lacks any grounding in mutuality. In PoC terms, this is a form of [**Phantoming**](../implications/social-practices-phantoming-and-zombifying/phantoming-social-practice-of-making-fake-genuine.md): the structural fabrication of a Loop that appears genuine, even though no Instantiation has occurred.
 
 #### **Illusions and Their Force**
 

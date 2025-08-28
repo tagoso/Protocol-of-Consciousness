@@ -14,9 +14,9 @@ Once someone has been zombified, they risk being trapped in that status: whateve
 
 #### 2. Mechanism
 
-* **Refusal of** [**Instantiation**](../../core-protocol/introduction.md): the other is not assumed to be a conscious being.
+* **Refusal of** [**Instantiation**](../../protocol/introduction.md): the other is not assumed to be a conscious being.
 * **Hollowing of response**: the other’s words or actions are reduced to noise or ritual.
-* **Collapse of the Loop**: [the circulation of mutual recognition (the Loop)](../../core-protocol/operations/loop-reciprocal-elicitation.md) is cut off before it can close.
+* **Collapse of the Loop**: [the circulation of mutual recognition (the Loop)](../../protocol/operations/loop-reciprocal-elicitation.md) is cut off before it can close.
 
 ***
 
