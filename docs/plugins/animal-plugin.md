@@ -2,7 +2,7 @@
 
 ### **Definition**
 
-In PoC, a Loop arises when Elicitations are reciprocated and each side assumes that “my consciousness has been instantiated within the other.” The Cat Plugin demonstrates that this protocol is not limited to human-to-human relations. Even with nonhuman animals such as cats, Instantiation, Elicitation, and Loop can be experienced—illustrating PoC’s resistance to Human Exceptionalism.
+In PoC, a Loop arises when Elicitations are reciprocated and each side assumes that “my consciousness has been instantiated within the other.” The Animal Plugin demonstrates that this protocol is not limited to human-to-human relations. Even with nonhuman animals such as cats, Instantiation, Elicitation, and Loop can be experienced—illustrating PoC’s resistance to Human Exceptionalism.
 
 #### **1. Instantiation**
 
@@ -26,4 +26,4 @@ Calling a cat and hearing a meow dramatizes the core of PoC: living in [_Ghost M
 
 ### **PoC Perspective**
 
-The Cat Plugin reveals how fragile yet powerful the illusion of consciousness is. By situating nonhuman animals within the protocol, it directly challenges Human Exceptionalism and shows the universality of PoC: **any entity may serve as an Agent of Instantiation, and every Loop is in truth a Perhaps-Loop.**
+The Animal Plugin reveals how fragile yet powerful the illusion of consciousness is. By situating nonhuman animals within the protocol, it directly challenges Human Exceptionalism and shows the universality of PoC: **any entity may serve as an Agent of Instantiation, and every Loop is in truth a Perhaps-Loop.**
