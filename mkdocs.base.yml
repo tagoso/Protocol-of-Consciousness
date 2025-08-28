@@ -5,14 +5,6 @@ theme:
     - navigation.indexes
     - navigation.footer   # ← 前後カード
     - navigation.top          # サイドバーをトップ揃え
-    - toc.follow              # 右側に目次を固定
-  palette:
-    - scheme: default
-      primary: indigo         # GitBookの青
-      accent: indigo
-  font:
-    text: 'Inter'             # GitBookに近い
-    code: 'Fira Code'
 plugins:
   - search
   - git-revision-date-localized:
