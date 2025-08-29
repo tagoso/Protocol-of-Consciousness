@@ -8,63 +8,63 @@
 
 ### インスタンス化（インスタンシエーション、Instantiation）
 
-[**インスタンス化**](../protocol/operations/instantiation.md)とは、対象の意識が主体（エージェント）の内面に現れてくる現象です。「この相手は意識を持っている」と仮定することでもあり、対象は人間に限りません。PoCでは猫やAIはもちろん、漫画のキャラクター、カーテンなどの無生物、死者、夕日、神（存在しないもの）もインスタンス化の対象になります。
+[**インスタンス化**](protocol/operations/instantiation.md)とは、対象の意識が主体（エージェント）の内面に現れてくる現象です。「この相手は意識を持っている」と仮定することでもあり、対象は人間に限りません。PoCでは猫やAIはもちろん、漫画のキャラクター、カーテンなどの無生物、死者、夕日、神（存在しないもの）もインスタンス化の対象になります。
 
 ### エリシテーション（誘発、Elicitation）
 
-[**エリシテーション**](../protocol/operations/elicitation.md)とは、対象に主体（エージェント）の意識を内面化させる要求です。「私の意識を仮定してほしい」と願い、何らかの行動を起こします。対象は、こちらの意識を仮定できるはずだ、と主体が想定した対象です。このため、人間だけではなく、猫やアイドル、神、死者、幽霊などあらゆるものが含まれる可能性があります。
+[**エリシテーション**](protocol/operations/elicitation.md)とは、対象に主体（エージェント）の意識を内面化させる要求です。「私の意識を仮定してほしい」と願い、何らかの行動を起こします。対象は、こちらの意識を仮定できるはずだ、と主体が想定した対象です。このため、人間だけではなく、猫やアイドル、神、死者、幽霊などあらゆるものが含まれる可能性があります。
 
 ### 相互エリシテーション（相互誘発、Reciprocal Elicitation）またはループ（Loop）
 
-[**相互エリシテーション**、または**ループ**](../protocol/operations/loop-reciprocal-elicitation.md)とは、異なる主体において、相互のエリシテーションが発生し、相手の内面におけるこちらのインスタンス化が発生していると両者が信じている状態を指します。このループ状態は社会における友愛や取引、信頼の基盤となっていますが、PoCは「[すべてのループはおそらくループである](../protocol/unguaranteability.md)」と指摘します。これは「ループの保証不可能性（Unguaranteeability）」と表されます。
+[**相互エリシテーション**、または**ループ**](protocol/operations/loop-reciprocal-elicitation.md)とは、異なる主体において、相互のエリシテーションが発生し、相手の内面におけるこちらのインスタンス化が発生していると両者が信じている状態を指します。このループ状態は社会における友愛や取引、信頼の基盤となっていますが、PoCは「[すべてのループはおそらくループである](protocol/unguaranteability.md)」と指摘します。これは「ループの保証不可能性（Unguaranteeability）」と表されます。
 
 ### インスタンス化なきエリシテーション
 
-[インスタンス化なきエリシテーション（Elicitation without Instantiation）](../protocol/elicitation-without-instantiation.md)は、インスタンシエーションを経ずに行われるエリシテーションを指します。一般的には、メディアやインフルエンサーからの呼びかけが想定されます。
+[インスタンス化なきエリシテーション（Elicitation without Instantiation）](protocol/elicitation-without-instantiation.md)は、インスタンシエーションを経ずに行われるエリシテーションを指します。一般的には、メディアやインフルエンサーからの呼びかけが想定されます。
 
-ただし、PoCではインスタンシエーションの有無を保証することもまた不可能であると述べており、これにより偽のループを真性のループに偽装する[ファントミング（幻像、Phantoming）](../implications/phantoming-and-zombifying/phantoming.md)、真性のループを偽のループに無効化（Protocol Violation、プロトコル違反）する[ゾンビ化（Zombifying）](../implications/phantoming-and-zombifying/zombifying.md)といった社会的操作が可能になります。
+ただし、PoCではインスタンシエーションの有無を保証することもまた不可能であると述べており、これにより偽のループを真性のループに偽装する[ファントミング（幻像、Phantoming）](implications/phantoming-and-zombifying/phantoming.md)、真性のループを偽のループに無効化（Protocol Violation、プロトコル違反）する[ゾンビ化（Zombifying）](implications/phantoming-and-zombifying/zombifying.md)といった社会的操作が可能になります。
 
 ### プロトコル破綻（Disruption）
 
-PoCはループの脆弱性を前提としたプロトコルで、ループが成立しない、または崩壊する様々なパターンをプロトコル内部の枠組み、[プロトコル破綻（Disruption）](../protocol/disruptions/)として説明します。さらに、その中でも人間社会の枠組みの中で特筆すべき破綻パターンを4つの[モード（Mode）](../protocol/disruptions/#modes-of-disruption)としてまとめています。
+PoCはループの脆弱性を前提としたプロトコルで、ループが成立しない、または崩壊する様々なパターンをプロトコル内部の枠組み、[プロトコル破綻（Disruption）](protocol/disruptions/)として説明します。さらに、その中でも人間社会の枠組みの中で特筆すべき破綻パターンを4つの[モード（Mode）](protocol/disruptions/#modes-of-disruption)としてまとめています。
 
 #### ラブ・モード（愛のモード、Love Mode）
 
-[ラブ・モード](../protocol/disruptions/love-mode.md)は、対象の内部に主体（こちら側）のインスタンス化が発生するどうかを問わず、一方的にエリシテーション（誘発）を行い続ける状態です。親の子に対する無償の愛などが該当します。
+[ラブ・モード](protocol/disruptions/love-mode.md)は、対象の内部に主体（こちら側）のインスタンス化が発生するどうかを問わず、一方的にエリシテーション（誘発）を行い続ける状態です。親の子に対する無償の愛などが該当します。
 
 #### ゴースト・モード（幽霊モード、Ghost Mode）
 
-[ゴースト・モード](../protocol/disruptions/ghost-mode.md)は、対象の内部に主体（こちら側）のインスタンス化が発生していないにも関わらず、インスタンス化を信じ、あたかも相互エリシテーションが発生しているかのようにエリシテーションを行い続ける行為です。アイドルを応援したり、心霊現象を体験したりする状態を指します。
+[ゴースト・モード](protocol/disruptions/ghost-mode.md)は、対象の内部に主体（こちら側）のインスタンス化が発生していないにも関わらず、インスタンス化を信じ、あたかも相互エリシテーションが発生しているかのようにエリシテーションを行い続ける行為です。アイドルを応援したり、心霊現象を体験したりする状態を指します。
 
 PoCにおいて、あらゆるインスタンス化は保証不可能なものであることから、ゴースト・モードはプロトコルが記述するすべてのループ・プロトコル破綻を包括する状態でもあります。
 
 #### デス・モード（死のモード、Death Mode）
 
-[デス・モード](../protocol/disruptions/death-mode.md)は、対象の内部に主体（こちら側）のインスタンス化が二度と発生しないと確信される状態です。死者との関係は、火葬や埋葬を通じてこのデス・モードに移行します。また、経験的にカーテンなどの無生物はこちらへのインスタンシエーションを行わないと信じることによって、多くの大人が無生物をこのデス・モードで処理します。
+[デス・モード](protocol/disruptions/death-mode.md)は、対象の内部に主体（こちら側）のインスタンス化が二度と発生しないと確信される状態です。死者との関係は、火葬や埋葬を通じてこのデス・モードに移行します。また、経験的にカーテンなどの無生物はこちらへのインスタンシエーションを行わないと信じることによって、多くの大人が無生物をこのデス・モードで処理します。
 
 #### ミラー・モード（鏡のモード、Mirror Mode）
 
-[ミラー・モード](../protocol/disruptions/mirror-mode.md)は自己意識につながる特殊なモードで、対象を自らの内部に想定し、自己を対象にしたインスタンス化・誘発・ループを完結されるモードです。
+[ミラー・モード](protocol/disruptions/mirror-mode.md)は自己意識につながる特殊なモードで、対象を自らの内部に想定し、自己を対象にしたインスタンス化・誘発・ループを完結されるモードです。
 
-このモードは、通常の関係性では対象の内部に発生したと信じているインスタンシエーションそれ自体が、実際には主体の内部でのみ想起されているというパラドックスを通じて説明されます（[構造的パラドックスとしての自己意識](../implications/self-consciousness-as-structual-paradox.md)）。
+このモードは、通常の関係性では対象の内部に発生したと信じているインスタンシエーションそれ自体が、実際には主体の内部でのみ想起されているというパラドックスを通じて説明されます（[構造的パラドックスとしての自己意識](implications/self-consciousness-as-structual-paradox.md)）。
 
 ### 緊張状態としての意識（Consciousness as Tension）
 
 PoCでは意識を**関係性の中に生じる幻想（Illusion）**&#x3068;想定し、「おそらくループ」という概念を通じてすべての意識イリュージョンは脆弱であると指摘します。それはつまり、意識とはお互いの信念、あるいは思い込みによって、確認できないインスタンシエーションを通じて相互エリシテーション（ループ）を回している結果に過ぎない、ということです。
 
-[緊張状態としての意識（Consciousness as Tension）](../protocol/consciousness-as-tension.md)イリュージョンを回しているループそのものが、常に相手からのインスタンシエーション拒否というプロトコル違反（Zombifying）や、「実はインスタンシエーションがなされていなかった」という遡否（Phantoming）によって脆くも崩れ去る可能性があることを示しています。
+[緊張状態としての意識（Consciousness as Tension）](protocol/consciousness-as-tension.md)イリュージョンを回しているループそのものが、常に相手からのインスタンシエーション拒否というプロトコル違反（Zombifying）や、「実はインスタンシエーションがなされていなかった」という遡否（Phantoming）によって脆くも崩れ去る可能性があることを示しています。
 
 ### プラグイン（Plugins）
 
 PoCは意識を記述するプロトコルとして、外部との接続性を重視しています。それらは[プラグイン](broken-reference)として記述され、PoCと外部との橋渡しを担います。プラグインには双方向の役割があります。
 
-ひとつめは、PoCのレンズを通じて、すでにある概念を新たな視点から眺めることです。PoCは、[デネッットの志向姿勢](../plugins/dennett-plugin.md)やリチャード・ドーキンスの[進化功利主義](../plugins/evolutionary-utilitarianism-plugin.md)など、既存の様々なアイデアの合成物として成立しています。ここからさらに、[クオリア](../plugins/qualia-plugin.md)や[動物倫理](../plugins/animal-plugin.md)、[メディア論](../plugins/media-plugin.md)、さらには[AIの倫理問題](../plugins/ai-plugin.md)にも新たな視座を提供します。
+ひとつめは、PoCのレンズを通じて、すでにある概念を新たな視点から眺めることです。PoCは、[デネッットの志向姿勢](plugins/dennett-plugin.md)やリチャード・ドーキンスの[進化功利主義](plugins/evolutionary-utilitarianism-plugin.md)など、既存の様々なアイデアの合成物として成立しています。ここからさらに、[クオリア](plugins/qualia-plugin.md)や[動物倫理](plugins/animal-plugin.md)、[メディア論](plugins/media-plugin.md)、さらには[AIの倫理問題](plugins/ai-plugin.md)にも新たな視座を提供します。
 
-ふたつめは、すでに広範な読者を持ち、社会規範にも適応されている理論を通じて、PoCをより理解してもらうことです。[サルトル](../plugins/sartre-plugin.md)や[ヘーゲル](../plugins/hegel-plugin.md)の理論を理解している人には、そのプラグインを読むことでPoCの基本概念を容易に理解できます。
+ふたつめは、すでに広範な読者を持ち、社会規範にも適応されている理論を通じて、PoCをより理解してもらうことです。[サルトル](plugins/sartre-plugin.md)や[ヘーゲル](plugins/hegel-plugin.md)の理論を理解している人には、そのプラグインを読むことでPoCの基本概念を容易に理解できます。
 
 ### PoCの限界
 
-[PoCの導入文](../protocol/introduction.md)でも記述されているように、PoCは学問的な整合性よりも、思考のためのツールキット、あるいは意識OSのためのソフトウェア開発キット（SDK operating on the OS of consciousness）としての実用性を重視しています。これらは[PoCの限界（Limits of PoC）](../implications/limits-of-poc.md)としてまとめられています。
+[PoCの導入文](protocol/introduction.md)でも記述されているように、PoCは学問的な整合性よりも、思考のためのツールキット、あるいは意識OSのためのソフトウェア開発キット（SDK operating on the OS of consciousness）としての実用性を重視しています。これらは[PoCの限界（Limits of PoC）](implications/limits-of-poc.md)としてまとめられています。
 
 具体的には、クオリア・プラグインでクオリアを広義のインスタンシエーションとして記述していますが、「そもそもなぜ意識があるのか」といった原初的な問題には踏み込んでいません。また、PoCのアイデアを実社会に導入するべきか、といった倫理的な議論も行っていません。
 
