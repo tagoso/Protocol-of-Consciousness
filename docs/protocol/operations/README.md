@@ -14,36 +14,18 @@ In this way, consciousness is treated not as an essence residing in the self, bu
 
 ### Operation Process
 
-[**Instantiation**](instantiation.md)
+#### **1. Instantiation**
 
-An illusion of the other’s consciousness arises internally.
+To instantiate is to believe that the other has consciousness. It is the appearance of the other’s mind within one’s own. The target is not limited to humans: cats, AI bots, fictional characters, inanimate objects, the dead, or even gods may all be instantiated.
 
-_(Example: when observing someone through a camera, they appear as if they are conscious.)_
+#### **2. Elicitation**
 
-↓
+Elicitation is the act of calling out, “regard me as conscious.” It is a bid directed to the other, asking them to instantiate me — to take my awareness into their own. Any entity imagined as capable of doing so — people, animals, idols, spirits, or even a balloon for children — may become its target.
 
-[**Elicitation**](elicitation.md)
+#### **3. Reciprocal Elicitation (Loop)**
 
-An agent bids for the other to instantiate them as conscious.
-
-_(Concrete forms: waving, calling someone’s name, greeting aloud, or sending a message — gestures that carry the intent “see me as conscious.”)_
-
-↓
-
-**Reciprocal Elicitation**
-
-The other responds with a double movement: regarding me as conscious while at the same time demanding, _“regard me as conscious too.”_
-
-_(An agent believes their instantiation occurs within the other, and an illusion of their own consciousness arises there.)_
-
-↓
-
-[**Loop**](loop-reciprocal-elicitation.md)
-
-Reciprocal Elicitations stabilize through circulation.
-
-* The boundary between subject and object becomes blurred.
-* Through assimilation, [the illusion of self-consciousness](../../implications/self-consciousness-as-structual-paradox.md) reinforces itself.
+Reciprocal elicitation occurs when both sides believe they are recognized as conscious by the other.\
+This is what PoC calls a _Loop_. Yet every loop is fragile: it is always only a [_Perhaps-Loop_](../unguaranteability.md), never fully guaranteed.
 
 ***
 
