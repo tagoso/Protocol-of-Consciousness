@@ -2,7 +2,7 @@
 
 This is a summary of PoC in Japanese.
 
-プロトコル意識のプロトコル（The Protocol of Consciousness）の原文は英語で、常時マイナー・アップデートされています。ここでは日本語版の要約と、翻訳のための用語集を掲載します。
+意識のプロトコル（The Protocol of Consciousness）の原文は英語で、常時マイナー・アップデートされています。ここでは日本語版の要約と、翻訳のための用語集を掲載します。
 
 ## 意識のプロトコルとは？
 
