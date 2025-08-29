@@ -9,9 +9,9 @@ Through these lenses, processes of consciousness that once seemed vague or ineff
 
 ### What Escapes the Protocol
 
-PoC provides a structural framework — [**Instantiation, Elicitation, Loop**](../protocol/operations/) — through which many phenomena of consciousness can be translated and analyzed. Yet not every emotion or experience can be reduced to this frame.
+PoC offers a structural frame — Instantiation, Elicitation, Loop — through which many phenomena of consciousness can be translated and analyzed. Yet not all experience can be reduced to this frame. Tears before art, the warmth of an embrace, awe before a mountain or sunset — these contain a surplus that resists formalization.
 
-Tears before a work of art, the warmth of embracing a loved one, awe before a mountain or sunset — these contain dimensions of excess that cannot be neatly captured. PoC does not deny such moments, but names them as what remains **outside the protocol**: the surplus that resists formalization.
+[The Qualia Plugin](../plugins/qualia-plugin.md) describes qualia as a broad form of instantiation, but it does not address the primordial question of _why_ consciousness exists at all. Nor does PoC engage in ethical debates about whether its ideas should be implemented in social practice. What PoC provides is a framework for what can be translated — and a recognition of what necessarily remains beyond it.
 
 ### How PoC Should Be Used
 
