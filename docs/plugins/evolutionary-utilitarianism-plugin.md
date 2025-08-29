@@ -4,8 +4,7 @@
 
 Evolutionary utilitarianism explains morality and altruism as adaptive utilities: behaviors that persisted because they enhanced survival and reproduction.
 
-Judgments of good and evil, happiness and suffering, are not abstract ideals but evolutionary reinforcements that stabilized social cooperation and group survival.\
-As Richard Dawkins argued in _The Selfish Gene_, even altruism can be read as a strategy of self-preservation at the genetic level.
+Judgments of good and evil, happiness and suffering, are not abstract ideals but evolutionary reinforcements that stabilized social cooperation and group survival. As Richard Dawkins argued in _The Selfish Gene_, even altruism can be read as a strategy of self-preservation at the genetic level.
 
 PoC aligns with this framework at a key point. In PoC, the [**Loop**](../protocol/operations/loop-reciprocal-elicitation.md) — established when [Elicitations](../protocol/operations/elicitation.md) are reciprocated and mutually believed — enables trust, cooperation, and coordination. To recognize one another as conscious is to make possible a fragile but functional basis for sociality. This resonates with the evolutionary view: Loops that stabilized recognition increased individual survival chances and strengthened group cohesion.
 
