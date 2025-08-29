@@ -22,4 +22,4 @@ Whether human, [animal](../plugins/animal-plugin.md), or [AI](../plugins/ai-plug
 
 It is heuristically useful to distinguish Modes such as [Love](../protocol/disruptions/love-mode.md), Ghost, [Death](../protocol/disruptions/death-mode.md), and [Mirror](../protocol/disruptions/mirror-mode.md). Yet beneath them lies a deeper truth: **all relations are permeated by undecidability.**
 
-PoC does not resolve this fragility. Instead, it formalizes it, offering a framework to think and live with the uncertainty at the heart of conscious life.
+PoC does not resolve this fragility. Instead, it formalizes it. And here lies its radical thesis: **what we call “consciousness” is nothing but this unresolvable illusion — an appearance sustained within relations despite its undecidability.** PoC thus frames consciousness not as a hidden substance, but as the very illusion that emerges from, and depends on, the impossibility of guarantee.
