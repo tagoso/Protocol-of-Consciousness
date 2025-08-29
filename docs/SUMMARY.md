@@ -23,7 +23,7 @@
 ## Implications
 
 * [Undecidability of Consciousness](implications/undecidability-of-consciousness.md)
-* [Self-Consciousness as Structual Paradox](implications/self-consciousness-as-structual-paradox.md)
+* [Self-Consciousness as Structural Paradox](implications/self-consciousness-as-structual-paradox.md)
 * [Phantoming and Zombifying](implications/phantoming-and-zombifying/README.md)
   * [Phantoming: Social Practice of Making Fake Genuine](implications/phantoming-and-zombifying/phantoming.md)
   * [Zombifying: Social Practice of Making Genuine Fake](implications/phantoming-and-zombifying/zombifying.md)
