@@ -42,15 +42,15 @@ Here Ghost Mode demonstrates one of PoC’s central principles: **consciousness 
 
 _(See_ [_Death Mode_](death-mode.md)_)_
 
-A Loop was once established but later collapses. Causes include betrayal, rejection, systemic collapse, or death.
+A Loop was once established but later collapses, then goes back to **No Instantiation**. Causes include betrayal, rejection, systemic collapse, or death.
 
-#### Self-Internalization of the Loop
+**Self-Internalization of the Loop**
 
-(_See_ [Mirror Mode](mirror-mode.md))
+_(See_ [_Mirror Mode_](mirror-mode.md)_)_
 
 Reciprocity from the external other fails, or remains radically uncertain. Instead, the agent stages the “position of the other” within themselves. Here, Elicitation and Reciprocal Elicitation circulate internally, giving rise to a Loop that is sustained without external confirmation.
 
-Mirror Mode exemplifies a paradoxical response to disruption: it neither denies nor resolves Unguaranteeability, but **folds it inward**. What is believed to be recognition from outside is, in truth, generated and maintained internally. This makes explicit [the structural paradox of self-consciousness](../../implications/self-consciousness-as-structual-paradox.md) within PoC.
+Mirror Mode exemplifies a paradoxical response to disruption: it neither denies nor resolves Unguaranteeability, but folds it inward. What appears to be recognition from outside is, in truth, generated and maintained internally. **In this internal circulation lies the seed of** [**self-consciousness, which PoC frames as a structural paradox**](../../implications/self-consciousness-as-structual-paradox.md)**.**
 
 #### **Protocol Violation**
 
@@ -67,10 +67,8 @@ In PoC, a **Mode** is a recognizable pattern in which the basic elements of the 
 * [**Love**](love-mode.md): Elicitation continues even without the guarantee of Reciprocal Elicitation.
 * [**Ghost**](ghost-mode.md): Reciprocity that cannot be verified is nevertheless experienced _“as if”_ it were real.
 * [**Death**](death-mode.md): An established Loop collapses into confirmed absence; the Loop becomes impossible.
-* [**Mirror**](mirror-mode.md): The self misplaces itself into the other’s position, generating Instantiation of the self and an internal Loop.
+* [**Mirror**](mirror-mode.md): Instantiation and Elicitation turn inward; by addressing oneself, [self-consciousness emerges](../../implications/self-consciousness-as-structual-paradox.md).
 
-Together, these modes show how the core mechanics of PoC — **Elicitation and Loop** — unfold into multiple human experiences when displaced or extended.
+Together, these modes show how the core mechanics of PoC — **Elicitation and Loop** — unfold into multiple human experiences when displaced or extended. These four — Love, Ghost, Death, and Mirror — can be taken as the core Modes of PoC for now. They are not meant as an exhaustive taxonomy, but as an initial basis. Other Modes may later emerge, or be derived as combinations and variations of these four.
 
-These four — Love, Ghost, Death, and Mirror — can be taken as the core Modes of PoC for now. They are not meant as an exhaustive taxonomy, but as an initial basis. Other Modes may later emerge, or be derived as combinations and variations of these four.
-
-It should be noted, however, that these Modes are heuristic distinctions rather than absolute categories. In practice, it is impossible to decisively confirm whether Instantiation or Reciprocal Elicitation truly occurs in the other. Thus, while the Modes are presented separately for clarity, they inevitably blur into one another and reveal [the deeper undecidability built into PoC](../../implications/undecidability-of-consciousness.md).
+It should be noted, however, that these Modes are heuristic distinctions rather than absolute categories. In practice, it is impossible to decisively confirm whether Instantiation or Reciprocal Elicitation truly occurs in the other. Thus, while the Modes are presented separately for clarity, they inevitably blur into one another and reveal the deeper undecidability built into PoC. **In this sense, Ghost Mode is distinctive: it is not only one Mode among others, but the very ground on which all Modes rest — the ever-present impossibility of guaranteeing reciprocity.**

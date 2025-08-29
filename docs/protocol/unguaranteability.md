@@ -33,7 +33,9 @@ The fragility of Loops gives rise to the diversity of lived experiences that PoC
 * [**Love Mode**](disruptions/love-mode.md): Uncertainty is endured and transformed into faith.
 * [**Ghost Mode**](disruptions/ghost-mode.md): Unverifiable responses are lived as real.
 * [**Death Mode**](disruptions/death-mode.md): The collapse of possibility is confirmed once and for all.
-* [**Mirror Mode**](disruptions/mirror-mode.md): Instantiation and Elicitation turn inward; by addressing oneself, [self-consciousness](../implications/self-consciousness-as-structual-paradox.md) emerges.
+*   [**Mirror Mode**](disruptions/mirror-mode.md): Uncertainty is folded inward; by instantiating and eliciting toward oneself, [self-consciousness arises](../implications/self-consciousness-as-structual-paradox.md).
+
+
 
 ### Summary
 
