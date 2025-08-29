@@ -4,17 +4,17 @@
 
 In PoC, **Elicitation without Instantiation** refers to situations where an Elicitation is issued, or interpreted as a response, even though no actual [Instantiation](operations/instantiation.md) occurs on the other’s side.
 
-Crucially, this is not an exceptional “failure” of the protocol but a structural condition inherent to it. Because every Loop is, at its core, a [**Perhaps-Loop**](unguaranteability.md), the possibility that no Instantiation has taken place can never be excluded.
+Crucially, this is not an exceptional “failure” of the protocol but a structural and open possibility to it. Because every Loop is, at its core, a [**Perhaps-Loop**](unguaranteability.md), the possibility that no Instantiation has taken place can never be excluded.
 
 ### Typical Occurrences
 
 #### **Animals and machines**
 
-When one calls to a cat and interprets its meow as a reply ([Animal Plugin](../plugins/animal-plugin.md)), or when one perceives an [AI](../plugins/ai-plugin.md)’s output as “understanding,” what occurs is precisely Elicitation without Instantiation.
+When [one calls to a cat](../plugins/animal-plugin.md) and interprets its meow as a reply, or when one perceives an [AI](../plugins/ai-plugin.md)’s output as “understanding,” what occurs is Elicitation without Instantiation.
 
 #### **Media environments**
 
-Influencers speaking as if addressing “only you,” streamers saying “thank you,” or algorithmic notifications arriving at the “perfect” moment — all generate the sense of being recognized without any genuine Instantiation on the sender’s side ([Media Plugin](../plugins/media-plugin.md)).
+Influencers speaking as if addressing “only you,” streamers saying “thank you,” or algorithmic notifications arriving at the “perfect” moment — all generate the sense of being recognized without any genuine Instantiation on the sender’s side (also see [Media Plugin](../plugins/media-plugin.md)).
 
 #### **Even among humans**
 
@@ -22,13 +22,13 @@ One can never verify whether the other has truly instantiated oneself. A smile, 
 
 ### Relation to Social Practices
 
-#### [**Phantoming**](../implications/phantoming-and-zombifying/phantoming.md)
+#### **Phantoming:** Making Fake Genuine
 
-The practice of fabricating a Loop as if genuine institutionalizes Elicitation without Instantiation at the social level.
+[Phantoming](../implications/phantoming-and-zombifying/phantoming.md) is the act of presenting a Loop as if it were real, even though no true Instantiation takes place. In this way, Elicitation without Instantiation becomes institutionalized at the social level.
 
-#### [**Zombifying**](../implications/phantoming-and-zombifying/zombifying.md)
+#### **Zombifying:** Making Genuine Fake
 
-Conversely, treating the other as absent — nullifying their potential Instantiation — represents the negative mirror of the same condition.
+[Zombifying](../implications/phantoming-and-zombifying/zombifying.md) is the opposite move: treating the other as if they were absent, denying their Instantiation even when it is present. It is the negative mirror of the same fragile condition.
 
 ### Theoretical Implications
 
