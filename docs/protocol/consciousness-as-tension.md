@@ -2,7 +2,7 @@
 
 ### Position within the Core Structure of PoC
 
-The basic operations of PoC are composed of **Instantiation → Elicitation → Reciprocal Elicitation → Loop**. Yet all of these are governed by [**Unguaranteeability**](unguaranteability.md): one can never confirm whether the other has truly instantiated me, or whether my Elicitation has been received.
+The basic operations of PoC are composed of **Instantiation** → **Elicitation** → **Loop (Reciprocal Elicitation)**. Yet all of these are governed by [**Unguaranteeability**](unguaranteability.md): one can never confirm whether the other has truly instantiated me, or whether my Elicitation has been received.
 
 Nevertheless, people continue to believe that a Loop has been established, and it is this belief that sustains the interaction. The condition of “persisting despite the uncertainty of establishment” is what PoC calls **Tension**.
 
@@ -23,7 +23,6 @@ Thus, all Modes are nothing but modalities of responding to **Consciousness as T
 
 * [**Undecidability**](../implications/undecidability-of-consciousness.md): the logical constraint that whether Instantiation or Reciprocal Elicitation has truly occurred can never be decided in principle.
 * [**Structural Paradox**](../implications/self-consciousness-as-structual-paradox.md): the structure by which the “me-in-the-other,” which exists only inside myself, is nonetheless believed to exist outside.
-* **Tension**: the experiential modality in which such constraints and paradoxes are lived — the felt condition of sustaining relations amid uncertainty.
 
 ### Summary
 
