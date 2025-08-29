@@ -1,8 +1,6 @@
 # Download Archive
 
-This page provides access to major versions of **The Protocol of Consciousness (PoC)** as downloadable PDF files.
-
-Each version is a snapshot of the evolving document.
+This page provides access to major versions of **The Protocol of Consciousness (PoC)** as downloadable PDF files. The latest (live) version ready to print out is always available at [Print Site](https://protocolofconsciousness.org/print_page/) page.
 
 ***
 
@@ -20,7 +18,3 @@ Early versions are also availabele in PDF.
 
 * [PoC Alpha (PDF)](https://github.com/tagoso/protocolofconsciousness/raw/main/archive/poc_alpha.pdf) – first experimental draft
 * [PoC Beta (PDF)](https://github.com/tagoso/protocolofconsciousness/raw/main/archive/poc_beta.pdf) – refined draft before the official release
-
-***
-
-📌 **Tip**: For citation or reference, please use the latest stable version.
