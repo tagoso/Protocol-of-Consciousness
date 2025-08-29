@@ -20,4 +20,4 @@ Ghost Mode is a mode in which the other is experienced _as if_ they were [Instan
 
 ### **Key Point**
 
-Ghost Mode is the mode of experiencing unverifiable Reciprocal Elicitation as if it were present. The Loop does not in fact close, but the subject lives it as though it does. This experiential illusion — much like in [the zombie thought experiment](../../plugins/p-zombie-plugin.md) — becomes the very force that sustains a relationship with unreachable others or with ghostly presences. **Ghost Mode is not just one Mode among others, but the** [**very condition that runs through the whole of PoC**](../ghost-mode-as-ground-of-poc.md)**.**
+Ghost Mode is the mode of experiencing unverifiable Reciprocal Elicitation as if it were present. The Loop does not in fact close, but the subject lives it as though it does. This experiential illusion — much like in [the zombie thought experiment](../../plugins/p-zombie-plugin.md) — becomes the very force that sustains a relationship with unreachable others or with ghostly presences. Ghost Mode is not just one Mode among others, but the [very condition that runs through the whole of PoC](../ghost-mode-as-ground-of-poc.md).
