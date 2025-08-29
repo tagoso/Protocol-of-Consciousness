@@ -16,11 +16,11 @@
 
 ### 相互エリシテーション（相互誘発、Reciprocal Elicitation）またはループ（Loop）
 
-[**相互エリシテーション**、または**ループ**](protocol/operations/loop-reciprocal-elicitation.md)とは、異なる主体において、相互のエリシテーションが発生し、相手の内面におけるこちらのインスタンス化が発生していると両者が信じている状態を指します。このループ状態は社会における友愛や取引、信頼の基盤となっていますが、PoCは「[すべてのループはおそらくループである](protocol/unguaranteability.md)」と指摘します。これは「ループの保証不可能性（Unguaranteeability）」と表されます。
+[**相互エリシテーション**、または**ループ**](protocol/operations/loop-reciprocal-elicitation.md)とは、異なる主体において、相互のエリシテーションが発生し、相手の内面におけるこちらのインスタンス化が発生していると両者が信じている状態を指します。このループ状態は社会における友愛や取引、信頼の基盤となっていますが、PoCは「[すべてのループは"おそらくループ"である](protocol/unguaranteability.md)」と指摘します。これは「ループの保証不可能性（Unguaranteeability）」と表されます。
 
 ### インスタンス化なきエリシテーション
 
-[インスタンス化なきエリシテーション（Elicitation without Instantiation）](protocol/elicitation-without-instantiation.md)は、インスタンシエーションを経ずに行われるエリシテーションを指します。一般的には、メディアやインフルエンサーからの呼びかけが想定されます。
+[インスタンス化なきエリシテーション（Elicitation without Instantiation）](protocol/elicitation-without-instantiation.md)は、インスタンシエーションを経ずに行われるエリシテーションを指します。具体例として、メディアやインフルエンサーからの呼びかけ、広告によるメッセージ、botからの応答が想定されます。
 
 ただし、PoCではインスタンシエーションの有無を保証することもまた不可能であると述べており、これにより偽のループを真性のループに偽装する[ファントミング（幻像、Phantoming）](implications/phantoming-and-zombifying/phantoming.md)、真性のループを偽のループに無効化（Protocol Violation、プロトコル違反）する[ゾンビ化（Zombifying）](implications/phantoming-and-zombifying/zombifying.md)といった社会的操作が可能になります。
 
