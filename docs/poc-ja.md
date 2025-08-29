@@ -62,7 +62,7 @@ PoCにおいて、あらゆるインスタンス化は保証不可能なもの�
 
 PoCでは意識を**関係性の中に生じる幻想（Illusion）**&#x3068;想定し、「おそらくループ」という概念を通じてすべての意識イリュージョンは脆弱であると指摘します。それはつまり、意識とはお互いの信念、あるいは思い込みによって、確認できないインスタンシエーションを通じて相互エリシテーション（ループ）を回している結果に過ぎない、ということです。PoCはこのように、「意識は循環のなかでしか記述できない」という立場を取ります。循環は回避すべき欠陥ではなく、むしろ意識が成立する構造そのものとして受け止められます。
 
-[緊張状態としての意識（Consciousness as Tension）](protocol/consciousness-as-tension.md)イリュージョンを回しているループそのものが、常に相手からのインスタンシエーション拒否というプロトコル違反（Zombifying）や、「実はインスタンシエーションがなされていなかった」という遡否（Retroactive Denial）によって脆くも崩れ去る可能性があることを示しています。
+[緊張状態としての意識（Consciousness as Tension）](protocol/consciousness-as-tension.md)イリュージョンを回しているループそのものが、常に相手からのインスタンシエーション拒否というプロトコル違反（Zombifying）や、「実はインスタンシエーションがなされていなかった」という遡及的否定（Retroactive Denial）によって脆くも崩れ去る可能性があることを示しています。
 
 ### プラグイン（Plugins）
 
@@ -121,8 +121,8 @@ PoCは意識を記述するプロトコルとして、外部との接続性を�
 | Qualia Plugin                                  | クオリア・プラグイン        |
 | Reciprocal Elicitation                         | 相互エリシテーション（相互誘発）  |
 | Reciprocity                                    | 相互性               |
-| Retroactive Denial                             | 遡否                |
-| Retroactive Fabrication                        | 遡造                |
+| Retroactive Denial                             | 遡及的否定             |
+| Retroactive Fabrication                        | 遡及的捏造             |
 | Sartre Plugin                                  | サルトル・プラグイン        |
 | Self-Consiousness as Structural Paradox        | 構造的パラドックスとしての自己意識 |
 | Structural Paradox                             | 構造的パラドックス         |
