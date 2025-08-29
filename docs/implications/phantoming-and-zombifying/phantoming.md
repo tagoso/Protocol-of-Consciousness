@@ -15,7 +15,7 @@ Fake Loops are the everyday face of [PoC’s principle of unguaranteeability](..
 **Phantoming** names the cultural and social practice of making Fake Loops look Genuine, or fabricating them afterward as if they had been genuine all along.
 
 * **Disguise**: making a mass-addressed [Elicitation](../../protocol/operations/elicitation.md) appear like a personal one.
-* **Retroactive fabrication**: later saying, _“I was really thinking of you,”_ simulating a past [Instantiation](../../protocol/operations/instantiation.md).
+* **Retroactive Fabrication**: later saying, _“I was really thinking of you,”_ simulating a past [Instantiation](../../protocol/operations/instantiation.md).
 
 Examples:
 
