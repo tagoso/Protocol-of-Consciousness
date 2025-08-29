@@ -32,7 +32,7 @@ PoCの用語で説明すると、異なる主体において相互のエリシ�
 
 [インスタンス化なきエリシテーション（Elicitation without Instantiation）](protocol/elicitation-without-instantiation.md)は、インスタンシエーションを経ずに行われるエリシテーションを指します。具体例として、メディアやインフルエンサーからの呼びかけ、広告によるメッセージ、botからの応答が想定されます。
 
-ただし、PoCではインスタンシエーションの有無を保証することもまた不可能であると述べており、これにより偽のループを真性のループに偽装する[ファントミング（幻像, Phantoming）](implications/phantoming-and-zombifying/phantoming.md)、真性のループを偽のループに無効化（Protocol Violation, プロトコル違反）する[ゾンビ化（Zombifying）](implications/phantoming-and-zombifying/zombifying.md)といった社会的操作が可能になります。
+ただし、PoCではインスタンシエーションの有無を保証することもまた不可能であると述べており、これにより偽のループを真のループに偽装する[ファントミング（幻像, Phantoming）](implications/phantoming-and-zombifying/phantoming.md)、真のループを偽のループに無効化（Protocol Violation, プロトコル違反）する[ゾンビ化（Zombifying）](implications/phantoming-and-zombifying/zombifying.md)といった社会的操作が可能になります。
 
 ### プロトコル破綻（Disruption）
 
@@ -84,7 +84,7 @@ PoCは意識を記述するプロトコルとして、外部との接続性を�
 | ---------------------------------------------- | ----------------- |
 | Agent                                          | 主体（エージェント）        |
 | AI Plugin                                      | AI・プラグイン          |
-| Animal Plugin                                  | 動物・プラグイン          |
+| Animal Plugin                                  | アニマル・プラグイン        |
 | Arakawa Plugin                                 | アラカワ・プラグイン        |
 | Consciousness as Tension                       | 緊張としての意識          |
 | Consciousness-in-Tension                       | 緊張状態としての意識        |
@@ -94,8 +94,8 @@ PoCは意識を記述するプロトコルとして、外部との接続性を�
 | Disruptive Patterns                            | 破綻パターン            |
 | Elicitation                                    | エリシテーション（誘発）      |
 | Evolutionary Utilitarianism Plugin             | 進化功利主義・プラグイン      |
-| Fake Loop                                      | 偽ループ              |
-| Genuine Loop                                   | 真正ループ             |
+| Fake Loop                                      | 偽のループ             |
+| Genuine Loop                                   | 真のループ             |
 | Ghost Mode                                     | ゴースト・モード（幽霊モード）   |
 | God Plugin                                     | 神・プラグイン           |
 | Hegel Plugin                                   | ヘーゲル・プラグイン        |
@@ -103,7 +103,6 @@ PoCは意識を記述するプロトコルとして、外部との接続性を�
 | Illusion                                       | イリュージョン（錯覚）       |
 | Instantiation                                  | インスタンス化           |
 | Instantiation of me                            | 私のインスタンス化         |
-| Instantiation of the Other                     | 他者のインスタンス化        |
 | Loop                                           | ループ               |
 | Loop Breakdown                                 | ループの崩壊            |
 | Loop Collapse                                  | ループの崩壊            |
@@ -115,10 +114,8 @@ PoCは意識を記述するプロトコルとして、外部との接続性を�
 | One-way Instantiation                          | 一方向のインスタンス化       |
 | P-Zombie Plugin                                | P-ゾンビ・プラグイン       |
 | Perhaps-Loop                                   | おそらくループ           |
-| Perhaps-Loop                                   | おそらくループ           |
 | Phantoming                                     | ファントミング（幻像）       |
 | Plugin                                         | プラグイン             |
-| PoC                                            | PoC               |
 | Protocol of Consciousness                      | 意識のプロトコル          |
 | Protocol Violation                             | プロトコル違反           |
 | Qualia Plugin                                  | クオリア・プラグイン        |
