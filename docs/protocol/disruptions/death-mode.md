@@ -2,7 +2,7 @@
 
 ### **Definition**
 
-Death Mode is the mode in which the dead are experienced as pure absence. In this state, [**Elicitation**](../operations/elicitation.md) no longer reaches the other, and neither Instantiation nor [**Reciprocal Elicitation**](../operations/loop-reciprocal-elicitation.md) is possible. The very possibility of the Loop collapses.
+**Death Mode** is the mode in which the dead are experienced as pure absence. In this state, [Elicitation](../operations/elicitation.md) no longer reaches the other, and neither Instantiation nor [Reciprocal Elicitation](../operations/loop-reciprocal-elicitation.md) is possible. The very possibility of the Loop collapses. This mode also extends to things never regarded as candidates for Instantiation in the first place — such as a landscape or a stone — which are apprehended simply as absence beyond reciprocity.
 
 ### **Features**
 
