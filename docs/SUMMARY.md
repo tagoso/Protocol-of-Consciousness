@@ -47,6 +47,6 @@
 ## Appendix
 
 * [Notation for Recalling PoC Model](appendix/notation-for-recalling-poc-model.md)
-* [意識のプロトコル](appendix/poc-ja.md)
+* [意識のプロトコル](appendix/nopurotokoru.md)
 * [Download Archive](appendix/download-archive.md)
 * [About](appendix/about.md)
