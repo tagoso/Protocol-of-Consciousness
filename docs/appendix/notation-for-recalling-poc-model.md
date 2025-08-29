@@ -10,31 +10,31 @@
 
 ### Step-by-Step Development (PoC Vocabulary Version)
 
-① [**Instantiation**](../protocol/operations/instantiation.md) **(Other-in-A)**
+#### ① [**Instantiation**](../protocol/operations/instantiation.md) **(Other-in-A)**
 
 Within A, **i\_A(B)** arises.
 
 → A experiences: “B seems to have consciousness” (the emergence of the illusion of another mind).
 
-② [**Elicitation**](../protocol/operations/elicitation.md) **(A→B)**
+#### ② [**Elicitation**](../protocol/operations/elicitation.md) **(A→B)**
 
 A performs **e\_{A→B}**, a bid that “B should instantiate me.”
 
 → This may take the form of a gesture, a greeting, or calling the other’s name.
 
-③ **Inference of Instantiation (A’s Hypothesis)**
+#### ③ **Inference of Instantiation (A’s Hypothesis)**
 
 From B’s responses or contextual cues, A infers that **i\_B(A)** has arisen. A maintains **ĭ\_A\[B(A)]**, the internal construct of “me-in-the-other.”
 
 ※ This “me-inside-B” exists only within A as an assumption, not as a fact.
 
-④ **Re-importation / Relocation**
+#### ④ **Re-importation / Relocation**
 
 A re-imports **ĭ\_A\[B(A)]** as if it were an object inside A itself.
 
 → A paradox arises: what should belong inside B is relocated into A, reshaping A’s relation both to itself and to the other. (This structural paradox is [the basis of self-consciousness](../implications/self-consciousness-as-structual-paradox.md).)
 
-⑤ [**Loop (Reciprocal Elicitation)**](../protocol/operations/loop-reciprocal-elicitation.md)
+#### ⑤ [**Loop (Reciprocal Elicitation)**](../protocol/operations/loop-reciprocal-elicitation.md)
 
 When B responds with **e\_{B→A}**, a circulation of Elicitations forms. Each side acts on the belief that “the other is hosting me inside them.”
 
