@@ -8,8 +8,8 @@ Once someone has been zombified, they risk being trapped in that status: whateve
 
 ### Mechanism
 
-* **Refusal of** **Instantiation**: the other is not assumed to be a conscious being.
-* **Retroactive Denial**: later saying, _“_&#x69;nstantiation had not been performe&#x64;_,”_ denying the past [Instantiation](../../protocol/operations/instantiation.md).
+* **No** **Instantiation**: the other is not assumed to be a conscious being.
+* **Retroactive Denial**: later saying, _“_&#x69;nstantiation had not been performe&#x64;_,”_ denying the past Instantiation.
 * **Hollowing of Response**: the other’s words or actions are reduced to noise or ritual.
 * **Collapse of the Loop**: [the circulation of mutual recognition (the Loop)](../../protocol/operations/loop-reciprocal-elicitation.md) is cut off before it can close.
 
