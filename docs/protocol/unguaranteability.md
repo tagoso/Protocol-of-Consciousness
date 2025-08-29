@@ -10,7 +10,7 @@ Observable gestures of Elicitation can always be mimicked without any genuine In
 
 Traditionally one might distinguish between “Fake Loops” and “Genuine Loops.” A Fake Loop arises when one interprets a response as Reciprocal Elicitation without any genuine Instantiation in the other. A Genuine Loop, by contrast, cannot be objectively verified—but as long as both parties believe in it, it functions as a Loop.
 
-The distinction, however, is never objectively decidable. A third-party observer cannot in principle distinguish between Fake and Genuine Loops. Even participants themselves can retrospectively claim, “I truly instantiated you at that time,” further blurring the line after the fact.
+The distinction, however, is never objectively decidable. A third-party observer cannot in principle distinguish between Fake and Genuine Loops. Even participants themselves can retrospectively claim, “I truly instantiated you at that time”, or “I actually did not instantiated you,” further blurring the line after the fact.
 
 For instance, one may encounter someone for the very first time yet feel, “I have met you before,” or even, “I saw you in a dream.” Such experiences illustrate that the decisive line between Fake and Genuine is always uncertain.
 
@@ -22,9 +22,9 @@ There is a powerful intuition that “if both parties are human, then the Loop c
 
 ### Existential Horizon
 
-The undecidability of Loops is not merely a theoretical constraint but an existential condition. The question, “Is the other truly seeing me?” expresses a fundamental anxiety, one that resonates with [Sartrean angst](../plugins/sartre-plugin.md) and countless literary themes.
+The undecidability of Loops is not merely a theoretical constraint but an existential condition. The question, “Is the other truly seeing me?” expresses a fundamental anxiety, one that resonates with [Sartrean angst](../plugins/sartre-plugin.md) and countless literary themes.&#x20;
 
-PoC is nothing more than a protocol that formalizes this underlying unease: the recognition that every Loop is suspended in uncertainty, and every Loop is lived as a Perhaps-Loop.
+PoC is nothing more than a protocol that formalizes this underlying unease: the recognition that every Loop is suspended in uncertainty, and every Loop is lived as a Perhaps-Loop. Also see [Consciousness as Tension](consciousness-as-tension.md).
 
 ### Modes as Responses to Perhaps-ness
 
@@ -33,7 +33,7 @@ The fragility of Loops gives rise to the diversity of lived experiences that PoC
 * [**Love Mode**](disruptions/love-mode.md): Uncertainty is endured and transformed into faith.
 * [**Ghost Mode**](disruptions/ghost-mode.md): Unverifiable responses are lived as real.
 * [**Death Mode**](disruptions/death-mode.md): The collapse of possibility is confirmed once and for all.
-* [**Mirror Mode**](disruptions/mirror-mode.md): Uncertainty is internalized, giving rise to [self-consciousness](../implications/self-consciousness-as-structual-paradox.md).
+* [**Mirror Mode**](disruptions/mirror-mode.md): Instantiation and Elicitation turn inward; by addressing oneself, [self-consciousness](../implications/self-consciousness-as-structual-paradox.md) emerges.
 
 ### Summary
 
