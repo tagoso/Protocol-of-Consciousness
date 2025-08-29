@@ -24,7 +24,7 @@ This is a summary of PoC in Japanese.
 
 ### 相互エリシテーション（相互誘発, Reciprocal Elicitation）またはループ（Loop）
 
-[**相互エリシテーション**、または**ループ**](protocol/operations/loop-reciprocal-elicitation.md)とは、双方が「相手に意識されている」と信じたときに成立。ただし、それは常に「おそらくループ」です。
+[**相互エリシテーション**、または**ループ**](protocol/operations/loop-reciprocal-elicitation.md)とは、双方が「相手に意識されている」と信じている状態です。ただし、それは常に保証不可能な「おそらくループ」です。
 
 PoCの用語で説明すると、異なる主体において相互のエリシテーションが発生し、相手の内面におけるこちらのインスタンス化が発生していると両者が信じている状態を指します。このループ状態は社会における取引や相愛、信頼の基盤となっていますが、PoCは「[すべてのループは"おそらくループ"である](protocol/unguaranteability.md)」と指摘します。これは「ループの保証不可能性（Unguaranteeability）」と表されます。
 
