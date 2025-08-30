@@ -1,18 +1,9 @@
-# Declaration
+# Abstract
 
-This declaration is not the Protocol itself. It is a statement of ethos — the ground from which PoC is written.
+**The Protocol of Consciousness (PoC)** is a protocol for describing consciousness. In PoC, consciousness is defined as an _illusion_ that arises within relations: the sequence of **Instantiation** → **Elicitation** → **Loop (Reciprocal Elicitation)**. These core operations define the minimal mechanics by which the illusion of consciousness arises.
 
-**Consciousness belongs to everyone**
+Yet PoC insists that these operations are never guaranteed. Whether Instantiation or Reciprocity truly occurs can never be confirmed. From this **Unguaranteability** emerges the lived experience of **Consciousness as Tension** — the persistence of Loops sustained only by belief (Perhaps-Loops).
 
-* It is not the property of experts or authorities.
-* Every person, through their own lived experience, is already an “expert” of consciousness.
+This fragility unfolds into distinct **Modes** (Love, Ghost, Death, Mirror), each representing a different response to the instability of reciprocity. It also gives rise to further **Implications** (such as Phantoming, Zombifying, Undecidability, Structural Paradox) that situate consciousness within social practices and logical constraints.
 
-**Consciousness must remain diverse**
-
-* It should never be forced into a single definition or theory.
-* Its richness lies in the many ways people project, respond, and extend their awareness.
-
-**The Protocol exists for dialogue**
-
-* PoC does not seek one final answer.
-* Its purpose is to offer a space where perspectives can meet, resonate, and grow together.
+Finally, **Plugins** extend PoC beyond its minimal protocol, applying it to philosophy, media, architecture, and non-human agents such as AI and Animal. These expansions demonstrate that the multiplicity of forms and chapters in this work is not accidental complexity, but the necessary consequence of a single core principle: **all Loops are Perhaps-Loops**.

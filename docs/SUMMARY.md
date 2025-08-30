@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Declaration](README.md)
-* [Abstract](abstract.md)
+* [Abstract](README.md)
 
 ## Protocol
 
