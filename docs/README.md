@@ -1,6 +1,6 @@
 # Abstract
 
-**The Protocol of Consciousness (PoC)** is a protocol for describing consciousness. In PoC, consciousness is defined as an _illusion_ that arises within relations: the sequence of **Instantiation** → **Elicitation** → **Loop (Reciprocal Elicitation)**. These core operations define the minimal mechanics by which the illusion of consciousness arises.
+**The Protocol of Consciousness (PoC)** is a protocol for describing consciousness. In PoC, consciousness is defined as an **illusion**—an undecidable phenomenon sustained by mutual **belief** within relations—emerging through the sequence of **Instantiation → Elicitation → Loop (Reciprocal Elicitation)**. These core operations define the minimal mechanics by which this illusion of consciousness is sustained.
 
 Yet PoC insists that these operations are never guaranteed. Whether Instantiation or Reciprocity truly occurs can never be confirmed. From this **Unguaranteability** emerges the lived experience of **Consciousness as Tension** — the persistence of Loops sustained only by belief (Perhaps-Loops).
 
