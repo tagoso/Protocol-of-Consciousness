@@ -6,7 +6,7 @@ This page provides access to major versions of **The Protocol of Consciousness (
 
 ### Stable Versions
 
-* [PoC v1.0 (PDF)](https://github.com/tagoso/protocolofconsciousness/raw/main/archive/poc_v1.0.pdf) – first major stable release
+* [PoC v1.0 (PDF)](https://github.com/tagoso/protocolofconsciousness/raw/main/archive/poc_v1.0.pdf) – first major stable release (2025.8.30)
 
 ***
 
@@ -16,5 +16,5 @@ The PoC document continues to evolve. If you are interested in tracking detailed
 
 Early versions are also availabele in PDF.
 
-* [PoC Alpha (PDF)](https://github.com/tagoso/protocolofconsciousness/raw/main/archive/poc_alpha.pdf) – first experimental draft
-* [PoC Beta (PDF)](https://github.com/tagoso/protocolofconsciousness/raw/main/archive/poc_beta.pdf) – refined draft before the official release
+* [PoC Alpha (PDF)](https://github.com/tagoso/protocolofconsciousness/raw/main/archive/poc_alpha.pdf) – first experimental draft (2025.8.20)
+* [PoC Beta (PDF)](https://github.com/tagoso/protocolofconsciousness/raw/main/archive/poc_beta.pdf) – refined draft before the official release (2025.8.26)
