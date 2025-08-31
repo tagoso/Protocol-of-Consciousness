@@ -4,7 +4,7 @@ In the main text, PoC was presented as a “protocol of consciousness,” with i
 
 ### Beginning from a Philosophical Fallacy
 
-The fundamental stance of PoC is this: **to ask whether the self has consciousness may itself be a philosophical fallacy**. PoC dismantles the “privilege of philosophical introspection.” Instead of taking “self-consciousness” as its starting point, PoC begins from the act of instantiating the other as conscious ([Instantiation](../protocol/operations/instantiation.md))**, and asks what becomes visible from there.**
+The fundamental stance of PoC is this: **to ask whether the self has consciousness may itself be a philosophical fallacy**. PoC dismantles the “privilege of philosophical introspection.” Instead of taking “self-consciousness” as its starting point, PoC begins from the belief that the other is conscious, which PoC calls [Instantiation](../protocol/operations/instantiation.md).
 
 In other words, the problem of consciousness is not confined to a mysterious inner essence, but is opened up toward the “practices of relation” that we enact in everyday life.
 
