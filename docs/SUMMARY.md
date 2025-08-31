@@ -46,6 +46,7 @@
 ## Appendix
 
 * [Notation for Recalling PoC Model](appendix/notation-for-recalling-poc-model.md)
+* [Another Introduction to PoC](appendix/another-introduction.md)
 
 ***
 
