@@ -2,6 +2,13 @@ site_name: Protocol of Consciousness
 site_url: https://protocolofconsciousness.org/
 site_description: "Protocol of Consciousness (PoC) official documentation. PoC functions as a toolkit for consciousness, connecting consciousness to AI and to existing philosophies."
 site_author: "Tago So"
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/tagoso/Protocol-of-Consciousness
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/tagoso
+
 theme:
   name: material
   custom_dir: overrides
