@@ -42,6 +42,7 @@
 * [Evolutionary Utilitarianism Plugin: Loops as Survival Mechanisms](plugins/evolutionary-utilitarianism-plugin.md)
 * [Media Plugin: Simulated Responsiveness](plugins/media-plugin.md)
 * [God Plugin: Instantiating the Absent](plugins/god-plugin.md)
+* [Origin-of-Religion Plugin](plugins/origin-of-religion-plugin.md)
 
 ## Appendix
 
