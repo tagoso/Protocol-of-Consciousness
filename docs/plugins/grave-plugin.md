@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Grave Plugin: A Phantoming Stage
 
 ### Definition
@@ -41,9 +37,9 @@ At the same time, the grave is also an apparatus that confirms “the dead’s r
 
 From a PoC perspective, the grave is an apparatus with multiple functions:
 
-* a site of elicitation,
-* a locus of Ghost Mode,
-* a stage of phantoming,
-* a confirmation of Death Mode.
+* a site of [Elicitation](../protocol/operations/elicitation.md),
+* a locus of [Ghost Mode](../protocol/disruptions/ghost-mode.md),
+* a stage of [Phantoming](../implications/phantoming-and-zombifying/phantoming.md),
+* a confirmation of [Death Mode](../protocol/disruptions/death-mode.md).
 
-Religion was subsequently appended, offering narratives that guarantee the unstable loop of the grave—but nothing more than that.
+[Religion was subsequently appended](origin-of-religion-plugin.md), offering narratives that guarantee the unstable loop of the grave—but nothing more than that.

@@ -1,14 +1,10 @@
----
-hidden: true
----
-
 # Origin-of-Religion Plugin: PoC Hypothesis
 
-From the perspective of the Protocol of Consciousness (PoC), a grave is neither a mere repository for corpses nor a passport to the afterlife. Rather, a grave is an **“apparatus that stages absence as presence and sustains the loop.”**
+From the perspective of the Protocol of Consciousness (PoC), a grave is neither a mere repository for corpses nor a passport to the afterlife. Rather, [a grave is an **“apparatus that stages absence as presence and sustains the loop.”**](grave-plugin.md)
 
-As PoC shows, consciousness always rests on the **belief** that “the other acknowledges me.” But the dead cannot respond, which means that this loop is fundamentally unguaranteeable. Nevertheless, people continue to address the dead and offer them gifts. This is a prime example of what PoC calls **Ghost Mode**—calling out as if reciprocity existed, even though no response can actually come.
+As PoC shows, consciousness always rests on the **belief** that “the other acknowledges me.” But the dead cannot respond, which means that this [loop is fundamentally unguaranteeable](../protocol/unguaranteability.md). Nevertheless, people continue to address the dead and offer them gifts. This is a prime example of what PoC calls [**Ghost Mode**](../protocol/disruptions/ghost-mode.md)—calling out as if reciprocity existed, even though no response can actually come.
 
-Moreover, the grave socially fixes the “place” that sustains such practices. Gravestones, burial goods, and monumental structures function as devices that make one feel the dead are “still there.” In this sense, the grave is a **Phantoming apparatus**—a social stage that renders absence present.
+Moreover, the grave socially fixes the “place” that sustains such practices. Gravestones, burial goods, and monumental structures function as devices that make one feel the dead are “still there.” In this sense, the grave is a [**Phantoming apparatus**](../implications/phantoming-and-zombifying/phantoming.md)—a social stage that renders absence present.
 
 Seen from this perspective, religious narratives (heaven, the underworld, judgment after death, etc.) are not necessarily the origin of graves. Rather, it may be that the PoC apparatus of the grave came first, and religion was added later to reinforce its instability. The following sections lay out this hypothesis step by step.
 
@@ -16,7 +12,7 @@ Seen from this perspective, religious narratives (heaven, the underworld, judgme
 
 #### The Beginning of Burial
 
-What we see in the practices of Neanderthals and early Homo sapiens is not mere disposal of bodies. The act of burying the dead and placing grave goods testifies that the dead were treated not as a “completely lost object” = **Death Mode**, but as a being that **still retained the possibility of response**.
+What we see in the practices of Neanderthals and early Homo sapiens is not mere disposal of bodies. The act of burying the dead and placing grave goods testifies that the dead were treated not as a “completely lost object” = [**Death Mode**](../protocol/disruptions/death-mode.md), but as a being that **still retained the possibility of response**.
 
 This corresponds to what PoC calls **Ghost Mode**—the practice of calling out to another believed to be capable of reciprocity, even though in fact no response is forthcoming.
 
