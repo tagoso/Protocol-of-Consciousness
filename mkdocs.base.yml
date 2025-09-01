@@ -6,7 +6,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/tagoso/Protocol-of-Consciousness
-    - icon: fontawesome/brands/twitter
+    - icon: fontawesome/brands/x-twitter
       link: https://x.com/tagoso
 
 theme:
