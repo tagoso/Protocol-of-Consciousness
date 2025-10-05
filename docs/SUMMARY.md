@@ -44,6 +44,7 @@
 * [God Plugin: Instantiating the Absent](plugins/god-plugin.md)
 * [Origin-of-Religion Plugin: PoC Hypothesis](plugins/origin-of-religion-plugin.md)
 * [Grave Plugin: A Phantoming Stage](plugins/grave-plugin.md)
+* [Cybernetics Plugin: PoC as Cybernetics 2.5](plugins/cybernetics-plugin.md)
 
 ## Appendix
 
