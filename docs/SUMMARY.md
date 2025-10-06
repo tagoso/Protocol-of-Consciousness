@@ -27,6 +27,7 @@
   * [Phantoming: Social Practice of Making Fake Genuine](implications/phantoming-and-zombifying/phantoming.md)
   * [Zombifying: Social Practice of Making Genuine Fake](implications/phantoming-and-zombifying/zombifying.md)
 * [Limits of PoC](implications/limits-of-poc.md)
+* [Supplement: A Critique of Intersubjectivity](implications/a-critique-of-intersubjectivity.md)
 
 ## Plugins
 
